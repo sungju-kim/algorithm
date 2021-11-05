@@ -1,2 +1,2 @@
-# cocoaAlgorithm_Friday
+# cocoaAlgorithm
 
