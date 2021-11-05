@@ -21,6 +21,7 @@
 		6CFD9D1A2735118D001E788B /* 시험 성적_9498.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9D192735118D001E788B /* 시험 성적_9498.swift */; };
 		6CFD9D1C27351314001E788B /* 나머지_10430.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9D1B27351314001E788B /* 나머지_10430.swift */; };
 		6CFD9D1E273514EF001E788B /* N 찍기_2741.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9D1D273514EF001E788B /* N 찍기_2741.swift */; };
+		6CFD9D2027351569001E788B /* 개_10172.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9D1F27351569001E788B /* 개_10172.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		6CFD9D192735118D001E788B /* 시험 성적_9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "시험 성적_9498.swift"; sourceTree = "<group>"; };
 		6CFD9D1B27351314001E788B /* 나머지_10430.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "나머지_10430.swift"; sourceTree = "<group>"; };
 		6CFD9D1D273514EF001E788B /* N 찍기_2741.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N 찍기_2741.swift"; sourceTree = "<group>"; };
+		6CFD9D1F27351569001E788B /* 개_10172.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "개_10172.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				6CFD9D192735118D001E788B /* 시험 성적_9498.swift */,
 				6CFD9D1B27351314001E788B /* 나머지_10430.swift */,
 				6CFD9D1D273514EF001E788B /* N 찍기_2741.swift */,
+				6CFD9D1F27351569001E788B /* 개_10172.swift */,
 			);
 			path = baekjoonAlgorithm;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				6CFD9D1E273514EF001E788B /* N 찍기_2741.swift in Sources */,
 				6CFD9D0C27350D3F001E788B /* 음계_2920.swift in Sources */,
 				6CFD9D0427350CA3001E788B /* A+B_1000.swift in Sources */,
+				6CFD9D2027351569001E788B /* 개_10172.swift in Sources */,
 				6CFD9D1A2735118D001E788B /* 시험 성적_9498.swift in Sources */,
 				6CFD9D0827350CEB001E788B /* A\B_1008.swift in Sources */,
 				6CFD9D1427350F4E001E788B /* AxB_10998.swift in Sources */,
