@@ -11,3 +11,4 @@ func p11654(){
     print(Character(readLine()!).asciiValue!)
 }
  
+ 
