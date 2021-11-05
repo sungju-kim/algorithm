@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6CFD9CF1273508F9001E788B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9CF0273508F9001E788B /* main.swift */; };
+		6CFD9CFD27350B24001E788B /* A+B_1000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9CF727350B24001E788B /* A+B_1000.swift */; };
+		6CFD9CFE27350B24001E788B /* 아스키코드_11654.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9CF827350B24001E788B /* 아스키코드_11654.swift */; };
+		6CFD9CFF27350B24001E788B /* OX퀴즈_8958.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9CF927350B24001E788B /* OX퀴즈_8958.swift */; };
+		6CFD9D0027350B24001E788B /* 음계_2920.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9CFA27350B24001E788B /* 음계_2920.swift */; };
+		6CFD9D0127350B24001E788B /* 별 찍기_2438.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9CFB27350B24001E788B /* 별 찍기_2438.swift */; };
+		6CFD9D0227350B24001E788B /* A\B_1008.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9CFC27350B24001E788B /* A\B_1008.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		6CFD9CED273508F9001E788B /* baekjoonAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = baekjoonAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFD9CF0273508F9001E788B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6CFD9CF727350B24001E788B /* A+B_1000.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "A+B_1000.swift"; path = "../../cocoaAlgorithm/cocoaAlgorithm/A+B_1000.swift"; sourceTree = "<group>"; };
+		6CFD9CF827350B24001E788B /* 아스키코드_11654.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "아스키코드_11654.swift"; path = "../../cocoaAlgorithm/cocoaAlgorithm/아스키코드_11654.swift"; sourceTree = "<group>"; };
+		6CFD9CF927350B24001E788B /* OX퀴즈_8958.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "OX퀴즈_8958.swift"; path = "../../cocoaAlgorithm/cocoaAlgorithm/OX퀴즈_8958.swift"; sourceTree = "<group>"; };
+		6CFD9CFA27350B24001E788B /* 음계_2920.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "음계_2920.swift"; path = "../../cocoaAlgorithm/cocoaAlgorithm/음계_2920.swift"; sourceTree = "<group>"; };
+		6CFD9CFB27350B24001E788B /* 별 찍기_2438.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "별 찍기_2438.swift"; path = "../../cocoaAlgorithm/cocoaAlgorithm/별 찍기_2438.swift"; sourceTree = "<group>"; };
+		6CFD9CFC27350B24001E788B /* A\B_1008.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "A\\B_1008.swift"; path = "../../cocoaAlgorithm/cocoaAlgorithm/A\\B_1008.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				6CFD9CF0273508F9001E788B /* main.swift */,
+				6CFD9CFB27350B24001E788B /* 별 찍기_2438.swift */,
+				6CFD9CF827350B24001E788B /* 아스키코드_11654.swift */,
+				6CFD9CFA27350B24001E788B /* 음계_2920.swift */,
+				6CFD9CFC27350B24001E788B /* A\B_1008.swift */,
+				6CFD9CF727350B24001E788B /* A+B_1000.swift */,
+				6CFD9CF927350B24001E788B /* OX퀴즈_8958.swift */,
 			);
 			path = baekjoonAlgorithm;
 			sourceTree = "<group>";
@@ -121,6 +139,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CFD9CF1273508F9001E788B /* main.swift in Sources */,
+				6CFD9D0027350B24001E788B /* 음계_2920.swift in Sources */,
+				6CFD9CFE27350B24001E788B /* 아스키코드_11654.swift in Sources */,
+				6CFD9D0227350B24001E788B /* A\B_1008.swift in Sources */,
+				6CFD9CFD27350B24001E788B /* A+B_1000.swift in Sources */,
+				6CFD9CFF27350B24001E788B /* OX퀴즈_8958.swift in Sources */,
+				6CFD9D0127350B24001E788B /* 별 찍기_2438.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
