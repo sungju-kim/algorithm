@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  p11654.swift
 //  cocoaAlgorithm
 //
 //  Created by 성주 on 2021/11/05.
@@ -7,9 +7,7 @@
 
 import Foundation
 
-//p1000()
-//p1008()
-//p2438()
-//p2920()
-//p8958()
-p11654()
+func p11654(){
+    print(Character(readLine()!).asciiValue!)
+}
+ 
