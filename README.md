@@ -9,8 +9,7 @@
 
 [id]: URL "Optional Title here"
 
-// code
-Link: [Google][googlelink]
+// 문제보기: [백준][baekjoonlink]
 
-[googlelink]: https://google.com "Go google"
+[baekjoonlink]: https://github.com/sungju-kim/algorithm/tree/main/baekjoonAlgorithm "Go baekjoon"
 >
