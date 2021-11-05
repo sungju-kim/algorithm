@@ -16,6 +16,7 @@
 		6CFD9D1027350D8A001E788B /* 아스키코드_11654.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9D0F27350D8A001E788B /* 아스키코드_11654.swift */; };
 		6CFD9D1227350E09001E788B /* We love kriii_10718.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9D1127350E09001E788B /* We love kriii_10718.swift */; };
 		6CFD9D1427350F4E001E788B /* AxB_10998.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9D1327350F4E001E788B /* AxB_10998.swift */; };
+		6CFD9D162735103D001E788B /* 사칙연산_10869.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD9D152735103D001E788B /* 사칙연산_10869.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		6CFD9D0F27350D8A001E788B /* 아스키코드_11654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "아스키코드_11654.swift"; sourceTree = "<group>"; };
 		6CFD9D1127350E09001E788B /* We love kriii_10718.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "We love kriii_10718.swift"; sourceTree = "<group>"; };
 		6CFD9D1327350F4E001E788B /* AxB_10998.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxB_10998.swift; sourceTree = "<group>"; };
+		6CFD9D152735103D001E788B /* 사칙연산_10869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "사칙연산_10869.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				6CFD9D0F27350D8A001E788B /* 아스키코드_11654.swift */,
 				6CFD9D1127350E09001E788B /* We love kriii_10718.swift */,
 				6CFD9D1327350F4E001E788B /* AxB_10998.swift */,
+				6CFD9D152735103D001E788B /* 사칙연산_10869.swift */,
 			);
 			path = baekjoonAlgorithm;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				6CFD9D0427350CA3001E788B /* A+B_1000.swift in Sources */,
 				6CFD9D0827350CEB001E788B /* A\B_1008.swift in Sources */,
 				6CFD9D1427350F4E001E788B /* AxB_10998.swift in Sources */,
+				6CFD9D162735103D001E788B /* 사칙연산_10869.swift in Sources */,
 				6CFD9D0A27350D18001E788B /* 별 찍기_2438.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
