@@ -14,4 +14,4 @@
 > 프로그래머스 알고리즘 제목에 따라 정렬
 > 문제보기: [프로그래머스][programmerslink].   
 >
->[programmers]: https://github.com/sungju-kim/algorithm/tree/main/programmersAlgorithm/programmersAlgorithm "Go Programmers"
+>[programmerslink]: https://github.com/sungju-kim/algorithm/tree/main/programmersAlgorithm/programmersAlgorithm "Go Programmers"
