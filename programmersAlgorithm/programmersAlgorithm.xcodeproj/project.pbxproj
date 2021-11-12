@@ -11,6 +11,7 @@
 		6C3A9912273E091800328E85 /* 나누어 떨어지는 배열.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A9911273E091800328E85 /* 나누어 떨어지는 배열.swift */; };
 		6C3A9918273E187400328E85 /* 크레인 인형뽑기 게임.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A9917273E187400328E85 /* 크레인 인형뽑기 게임.swift */; };
 		6C3A991A273E26B800328E85 /* 두 개 뽑아서 더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A9919273E26B800328E85 /* 두 개 뽑아서 더하기.swift */; };
+		6C3A9931273E3FC000328E85 /* 모의고사.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A9930273E3FC000328E85 /* 모의고사.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		6C3A9911273E091800328E85 /* 나누어 떨어지는 배열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "나누어 떨어지는 배열.swift"; sourceTree = "<group>"; };
 		6C3A9917273E187400328E85 /* 크레인 인형뽑기 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "크레인 인형뽑기 게임.swift"; sourceTree = "<group>"; };
 		6C3A9919273E26B800328E85 /* 두 개 뽑아서 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "두 개 뽑아서 더하기.swift"; sourceTree = "<group>"; };
+		6C3A9930273E3FC000328E85 /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				6C3A990A273E090A00328E85 /* main.swift */,
+				6C3A9930273E3FC000328E85 /* 모의고사.swift */,
 				6C3A9917273E187400328E85 /* 크레인 인형뽑기 게임.swift */,
 				6C3A9919273E26B800328E85 /* 두 개 뽑아서 더하기.swift */,
 				6C3A9911273E091800328E85 /* 나누어 떨어지는 배열.swift */,
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C3A9912273E091800328E85 /* 나누어 떨어지는 배열.swift in Sources */,
+				6C3A9931273E3FC000328E85 /* 모의고사.swift in Sources */,
 				6C3A9918273E187400328E85 /* 크레인 인형뽑기 게임.swift in Sources */,
 				6C3A990B273E090A00328E85 /* main.swift in Sources */,
 				6C3A991A273E26B800328E85 /* 두 개 뽑아서 더하기.swift in Sources */,
