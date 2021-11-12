@@ -8,14 +8,19 @@
 import Foundation
 
 func sumOfFacters(_ n:Int) -> Int {
-    var facters : [Int] = []
+//    var facters : [Int] = []
+//    if n > 0 {
+//        for i in 1...n {
+//            if n % i == 0{
+//                facters.append(i)
+//            }
+//        }
+//        return facters.reduce(0, +)
+//    }else {
+//        return 0
+//    }
     if n > 0 {
-        for i in 1...n {
-            if n % i == 0{
-                facters.append(i)
-            }
-        }
-        return facters.reduce(0, +)
+        return Array(1...n).filter{n % $0 == 0}.reduce(0, +)
     }else {
         return 0
     }
