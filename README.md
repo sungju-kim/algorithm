@@ -7,7 +7,7 @@
 > 백준 알고리즘 번호에 따라 제목_번호 정렬.   
 > 문제보기: [백준][baekjoonlink].   
 >
->[baekjoonlink]: https://github.com/sungju-kim/algorithm/tree/main/baekjoonAlgorithm "Go baekjoon"
+>[baekjoonlink]: https://github.com/sungju-kim/algorithm/tree/main/baekjoonAlgorithm/baekjoonAlgorithm "Go baekjoon"
 >
 
 > 프로그래머스 알고리즘 : 프로그래머스 알고리즘 문제를 해결한 소스코드.   
