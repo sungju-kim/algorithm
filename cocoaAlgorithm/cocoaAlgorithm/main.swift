@@ -12,4 +12,5 @@ import Foundation
 //p2438()
 //p2920()
 //p8958()
-p11654()
+//p11654()
+print(divideAvailableArray([3, 2, 5], 10))
