@@ -16,7 +16,9 @@ import Foundation
 
 //print(daysIn2016(1, 24))
 
-print(sumOfFacters(0))
+//print(sumOfFacters(0))
+
+print(suggestNewId("...!@BaT#*..y.abcdefghijklm"))
 
 
 
