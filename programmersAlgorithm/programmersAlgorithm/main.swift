@@ -18,7 +18,29 @@ import Foundation
 
 //print(sumOfFacters(0))
 
-print(suggestNewId("...!@BaT#*..y.abcdefghijklm"))
+//print(suggestNewId("...!@BaT#*..y.abcdefghijklm"))
+
+//print(lottosSolution([45, 4, 35, 20, 3, 9], [20, 9, 3, 45, 4, 35]))
+
+
+//print(compressionSolution("abcabcabcabcdededededede"))
 
 
 
+func a() -> String {
+    var stringClass = StringThing()
+    b(stringClass.str)
+    return stringClass.str
+}
+
+
+func b(_ s : String) -> String {
+    var stringClass = StringThing()
+    stringClass.str = "2"
+    return "0"
+}
+class StringThing {
+    var str = "1"
+}
+
+print(a())
