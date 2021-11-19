@@ -23,3 +23,5 @@ import Foundation
 //print(sumOfFacters(100))
 
 //solveMeFirst.printResult()
+
+//gradingstudents.printResult()
