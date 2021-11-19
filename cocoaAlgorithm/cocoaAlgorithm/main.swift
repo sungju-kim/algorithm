@@ -29,3 +29,5 @@ import Foundation
 //compareTheTriplets.printResult()
 
 //aVeryBigSum.printResult()
+
+//timeConversion.printResult()
