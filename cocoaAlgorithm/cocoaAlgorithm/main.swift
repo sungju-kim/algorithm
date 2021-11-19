@@ -31,3 +31,4 @@ import Foundation
 //aVeryBigSum.printResult()
 
 //timeConversion.printResult()
+kangaroo.printResult()
