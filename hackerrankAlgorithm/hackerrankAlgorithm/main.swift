@@ -7,7 +7,7 @@
 
 import Foundation
 
-//print(solveMeFirst())
+//solveMeFirst.printResult()
 
 //gradingstudents.printResult()
 

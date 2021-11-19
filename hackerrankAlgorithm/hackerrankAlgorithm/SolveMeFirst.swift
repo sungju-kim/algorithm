@@ -7,13 +7,16 @@
 
 import Foundation
 
-func solveMeFirst() -> Int{
-    let a = Int(readLine()!)!
-    let b = Int(readLine()!)!
-    return a+b
+struct SolveMeFirst {
+    func solveMeFirst() -> Int{
+        let a = Int(readLine()!)!
+        let b = Int(readLine()!)!
+        return a+b
+    }
+    func printResult() {
+        print(solveMeFirst())
+    }
 }
-
-
-// Hint: Type print(a + b) below
+let solveMeFirst = SolveMeFirst()
 
 
