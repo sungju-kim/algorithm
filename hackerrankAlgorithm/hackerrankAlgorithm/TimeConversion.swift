@@ -13,21 +13,17 @@ struct TimeConversion {
         var onlyTime = s.prefix(8).components(separatedBy: ":").map{$0}
         var hour = onlyTime[0]
         let newHour = String(Int(hour)! + 12)
-        switch antePostMeridiem {
-        case "PM":
-            switch hour {
-            case "12":
-                hour = "12"
-            default:
-                hour = newHour
-            }
-        case "AM":
-            if hour == "12"{
-                hour = "00"
-            }
+        switch (antePostMeridiem, hour) {
+        case ("PM", "12"):
+            hour = "12"
+        case ("PM", _ ):
+            hour = newHour
+        case ("AM", "12"):
+            hour = "00"
         default:
             return "fail"
         }
+        
         onlyTime[0] = String(hour)
         
         return "\(onlyTime[0]):\(onlyTime[1]):\(onlyTime[2])"

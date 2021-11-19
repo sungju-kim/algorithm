@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C5D41E3274770AB00780F0A /* ClimbingTheLeaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5D41E2274770AB00780F0A /* ClimbingTheLeaderboard.swift */; };
 		6CB5B7152747330C000EE1D9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB5B7142747330C000EE1D9 /* main.swift */; };
 		6CB5B71C27473328000EE1D9 /* SolveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB5B71B27473328000EE1D9 /* SolveMeFirst.swift */; };
 		6CB5B71E2747335A000EE1D9 /* GradingStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB5B71D2747335A000EE1D9 /* GradingStudents.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C5D41E2274770AB00780F0A /* ClimbingTheLeaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingTheLeaderboard.swift; sourceTree = "<group>"; };
 		6CB5B7112747330C000EE1D9 /* hackerrankAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerrankAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB5B7142747330C000EE1D9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6CB5B71B27473328000EE1D9 /* SolveMeFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveMeFirst.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				6CB5B7142747330C000EE1D9 /* main.swift */,
+				6C5D41E2274770AB00780F0A /* ClimbingTheLeaderboard.swift */,
 				6CB5B723274749AE000EE1D9 /* TimeConversion.swift */,
 				6CB5B72527475402000EE1D9 /* NumberLineJumps.swift */,
 				6CB5B71F27474299000EE1D9 /* compareTheTriplets.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				6CB5B724274749AE000EE1D9 /* TimeConversion.swift in Sources */,
 				6CB5B71C27473328000EE1D9 /* SolveMeFirst.swift in Sources */,
+				6C5D41E3274770AB00780F0A /* ClimbingTheLeaderboard.swift in Sources */,
 				6CB5B71E2747335A000EE1D9 /* GradingStudents.swift in Sources */,
 				6CB5B72627475402000EE1D9 /* NumberLineJumps.swift in Sources */,
 				6CB5B72227474763000EE1D9 /* AVeryBigSum.swift in Sources */,
