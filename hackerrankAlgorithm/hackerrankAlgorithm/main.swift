@@ -11,4 +11,6 @@ import Foundation
 
 //gradingstudents.printResult()
 
-compareTheTriplets.printResult()
+//compareTheTriplets.printResult()
+
+//aVeryBigSum.printResult()
