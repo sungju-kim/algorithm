@@ -20,5 +20,5 @@ import Foundation
 
 //print(daysIn2016(1, 24))
 
-print(sumOfFacters(100))
+//print(sumOfFacters(100))
 
