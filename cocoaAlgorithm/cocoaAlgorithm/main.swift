@@ -25,3 +25,5 @@ import Foundation
 //solveMeFirst.printResult()
 
 //gradingstudents.printResult()
+
+//compareTheTriplets.printResult()
