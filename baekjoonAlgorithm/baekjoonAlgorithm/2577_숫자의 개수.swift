@@ -1,12 +1,11 @@
 //
-//  숫자의 개수_p2577.swift
+//  2577_숫자의 개수.swift
 //  baekjoonAlgorithm
 //
-//  Created by 성주 on 2021/11/11.
+//  Created by 성주 on 2021/11/26.
 //
 
 import Foundation
-
 func p2577(){
     var number = 1
     for _ in 1...3 {

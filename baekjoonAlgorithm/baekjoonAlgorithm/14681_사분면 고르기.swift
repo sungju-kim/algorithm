@@ -1,12 +1,11 @@
 //
-//  사분면 고르기_14681.swift
+//  14681_사분면 고르기.swift
 //  baekjoonAlgorithm
 //
-//  Created by 성주 on 2021/11/11.
+//  Created by 성주 on 2021/11/26.
 //
 
 import Foundation
-
 func p14681(){
     let inputA = Int(readLine() ?? "0") ?? 0
     let inputB = Int(readLine() ?? "0") ?? 0

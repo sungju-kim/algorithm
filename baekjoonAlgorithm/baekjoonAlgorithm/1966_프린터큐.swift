@@ -1,12 +1,11 @@
 //
-//  프린터 큐_1966.swift
+//  1966_프린터큐.swift
 //  baekjoonAlgorithm
 //
-//  Created by 성주 on 2021/11/16.
+//  Created by 성주 on 2021/11/26.
 //
 
 import Foundation
-
 func p1966() {
     var indexArr : [Int] = []
     var count = 1
@@ -40,4 +39,3 @@ func p1966() {
         count = 1
     }
 }
-
