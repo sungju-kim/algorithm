@@ -1,5 +1,5 @@
 //
-//  더하기 사이클_1110.swift
+//  1110_더하기 사이클.swift
 //  baekjoonAlgorithm
 //
 //  Created by 성주 on 2021/11/05.
@@ -22,3 +22,4 @@ func p1110() {
     }
     print(cycle)
 }
+

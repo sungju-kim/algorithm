@@ -1,5 +1,5 @@
 //
-//  나머지_10430.swift
+//  10430_나머지.swift
 //  baekjoonAlgorithm
 //
 //  Created by 성주 on 2021/11/05.

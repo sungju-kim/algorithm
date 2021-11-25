@@ -1,5 +1,5 @@
 //
-//  A+B_1000.swift
+//  1000_A+B.swift
 //  baekjoonAlgorithm
 //
 //  Created by 성주 on 2021/11/05.

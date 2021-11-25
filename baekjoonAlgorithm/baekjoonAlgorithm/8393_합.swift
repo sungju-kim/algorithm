@@ -1,5 +1,5 @@
 //
-//  기찍 N_2742.swift
+//  8393_합.swift
 //  baekjoonAlgorithm
 //
 //  Created by 성주 on 2021/11/05.
@@ -7,10 +7,11 @@
 
 import Foundation
 
-func p2742() {
+func p8393(){
     let input = Int(readLine()!)!
-    for i in stride(from: input, through: 1, by: -1) {
-        print(i)
+    var sum = 0
+    for i in 1...input{
+        sum += i
     }
-    
+    print(sum)
 }

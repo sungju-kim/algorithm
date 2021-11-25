@@ -1,17 +1,14 @@
 //
-//  합_8393.swift
+//  2739_구구단.swift
 //  baekjoonAlgorithm
 //
 //  Created by 성주 on 2021/11/05.
 //
 
 import Foundation
-
-func p8393(){
+func p2739() {
     let input = Int(readLine()!)!
-    var sum = 0
-    for i in 1...input{
-        sum += i
+    for i in 1...9 {
+        print("\(input) * \(i) = \(input*i)")
     }
-    print(sum)
 }

@@ -1,5 +1,5 @@
 //
-//  OX퀴즈_8958.swift
+//  8958_OX퀴즈.swift
 //  baekjoonAlgorithm
 //
 //  Created by 성주 on 2021/11/05.

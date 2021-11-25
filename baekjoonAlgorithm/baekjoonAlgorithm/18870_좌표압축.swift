@@ -1,5 +1,5 @@
 //
-//  좌표압축_18870.swift
+//  18870_좌표압축.swift
 //  baekjoonAlgorithm
 //
 //  Created by 성주 on 2021/11/19.

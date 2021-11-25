@@ -1,5 +1,5 @@
 //
-//  개_10172.swift
+//  10172_개.swift
 //  baekjoonAlgorithm
 //
 //  Created by 성주 on 2021/11/05.
