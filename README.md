@@ -4,7 +4,7 @@
 ***
 
 > 백준 알고리즘 : 백준 알고리즘 문제를 해결한 소스코드.   
-> 백준 알고리즘 번호에 따라 제목_번호 정렬.   
+> 백준 알고리즘 번호에 따라 번호_제목 정렬.   
 > 문제보기: [백준][baekjoonlink].   
 >
 >[baekjoonlink]: https://github.com/sungju-kim/algorithm/tree/main/baekjoonAlgorithm/baekjoonAlgorithm "Go baekjoon"
