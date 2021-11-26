@@ -8,4 +8,6 @@
 import Foundation
 
 
-print(solutionTwoSum.twoSum([2,7,11,15], 9))
+//print(solutionTwoSum.twoSum([2,7,11,15], 9))
+
+print(solutionReverseInteger.reverse(-123))
