@@ -12,4 +12,6 @@ import Foundation
 
 //print(solutionReverseInteger.reverse(-123))
 
-print(solutionIsPalindrome.isPalindrome(-121))
+//print(solutionIsPalindrome.isPalindrome(-121))
+
+print(solutionRomanToInt.romanToInt("LVIII"))
