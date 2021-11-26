@@ -14,4 +14,5 @@ import Foundation
 
 //print(solutionIsPalindrome.isPalindrome(-121))
 
-print(solutionRomanToInt.romanToInt("LVIII"))
+//print(solutionRomanToInt.romanToInt("LVIII"))
+print(soulutionLongestCommonPrefix.longestCommonPrefix(["abca","aba","aaab"]))
