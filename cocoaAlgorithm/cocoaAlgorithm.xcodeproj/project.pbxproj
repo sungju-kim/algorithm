@@ -17,6 +17,7 @@
 		6C5B4AF527508A7B00C17A16 /* Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AF127508A7B00C17A16 /* Reverse Integer.swift */; };
 		6C5B4AF627508A7B00C17A16 /* twoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AF227508A7B00C17A16 /* twoSum.swift */; };
 		6C5B4AF727508A7B00C17A16 /* Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AF327508A7B00C17A16 /* Roman to Integer.swift */; };
+		6C5B4AFB2750A1F100C17A16 /* Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AFA2750A1F100C17A16 /* Longest Common Prefix.swift */; };
 		6CB5B7282747591F000EE1D9 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB5B7272747591F000EE1D9 /* TimeConversion.swift */; };
 		6CB5B72A27475935000EE1D9 /* NumberLineJumps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB5B72927475935000EE1D9 /* NumberLineJumps.swift */; };
 		6CB5B72C27475947000EE1D9 /* compareTheTriplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB5B72B27475947000EE1D9 /* compareTheTriplets.swift */; };
@@ -55,6 +56,7 @@
 		6C5B4AF127508A7B00C17A16 /* Reverse Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Reverse Integer.swift"; path = "../../leetcodeAlgorithm/leetcodeAlgorithm/Reverse Integer.swift"; sourceTree = "<group>"; };
 		6C5B4AF227508A7B00C17A16 /* twoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = twoSum.swift; path = ../../leetcodeAlgorithm/leetcodeAlgorithm/twoSum.swift; sourceTree = "<group>"; };
 		6C5B4AF327508A7B00C17A16 /* Roman to Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Roman to Integer.swift"; path = "../../leetcodeAlgorithm/leetcodeAlgorithm/Roman to Integer.swift"; sourceTree = "<group>"; };
+		6C5B4AFA2750A1F100C17A16 /* Longest Common Prefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Longest Common Prefix.swift"; path = "../../leetcodeAlgorithm/leetcodeAlgorithm/Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		6CB5B7272747591F000EE1D9 /* TimeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
 		6CB5B72927475935000EE1D9 /* NumberLineJumps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLineJumps.swift; sourceTree = "<group>"; };
 		6CB5B72B27475947000EE1D9 /* compareTheTriplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareTheTriplets.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				6C5B4AF127508A7B00C17A16 /* Reverse Integer.swift */,
 				6C5B4AF327508A7B00C17A16 /* Roman to Integer.swift */,
 				6C5B4AF227508A7B00C17A16 /* twoSum.swift */,
+				6C5B4AFA2750A1F100C17A16 /* Longest Common Prefix.swift */,
 			);
 			path = cocoaAlgorithm;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				6CFD9CD72734FF84001E788B /* A+B_1000.swift in Sources */,
 				6C5B4AF527508A7B00C17A16 /* Reverse Integer.swift in Sources */,
 				6CB5B7322747597B000EE1D9 /* GradingStudents.swift in Sources */,
+				6C5B4AFB2750A1F100C17A16 /* Longest Common Prefix.swift in Sources */,
 				6C3A991C273E26C100328E85 /* 두 개 뽑아서 더하기.swift in Sources */,
 				6CFD9CDB2734FFFA001E788B /* 별 찍기_2438.swift in Sources */,
 				6CFD9CE32735006D001E788B /* 아스키코드_11654.swift in Sources */,
