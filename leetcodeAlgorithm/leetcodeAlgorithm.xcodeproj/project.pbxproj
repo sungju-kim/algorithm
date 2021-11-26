@@ -13,6 +13,7 @@
 		6C5B4AED275083C000C17A16 /* Palindrome Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AEC275083C000C17A16 /* Palindrome Number.swift */; };
 		6C5B4AEF2750865800C17A16 /* Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AEE2750865800C17A16 /* Roman to Integer.swift */; };
 		6C5B4AF927508AC900C17A16 /* Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AF827508AC900C17A16 /* Longest Common Prefix.swift */; };
+		6C5B4AFD2750A2EA00C17A16 /* Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AFC2750A2EA00C17A16 /* Merge Two Sorted Lists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		6C5B4AEC275083C000C17A16 /* Palindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Number.swift"; sourceTree = "<group>"; };
 		6C5B4AEE2750865800C17A16 /* Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roman to Integer.swift"; sourceTree = "<group>"; };
 		6C5B4AF827508AC900C17A16 /* Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Prefix.swift"; sourceTree = "<group>"; };
+		6C5B4AFC2750A2EA00C17A16 /* Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				6C5B4AE127507B1600C17A16 /* main.swift */,
+				6C5B4AFC2750A2EA00C17A16 /* Merge Two Sorted Lists.swift */,
 				6C5B4AE827507ECA00C17A16 /* twoSum.swift */,
 				6C5B4AEA27507F6300C17A16 /* Reverse Integer.swift */,
 				6C5B4AEE2750865800C17A16 /* Roman to Integer.swift */,
@@ -141,6 +144,7 @@
 				6C5B4AED275083C000C17A16 /* Palindrome Number.swift in Sources */,
 				6C5B4AE227507B1600C17A16 /* main.swift in Sources */,
 				6C5B4AF927508AC900C17A16 /* Longest Common Prefix.swift in Sources */,
+				6C5B4AFD2750A2EA00C17A16 /* Merge Two Sorted Lists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
