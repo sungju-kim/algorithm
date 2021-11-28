@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0ACED52753512F00B38AE0 /* 11050_이항 계수 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0ACED42753512F00B38AE0 /* 11050_이항 계수 1.swift */; };
 		6C58145D274FD5F80076488C /* 5086_배수와 약수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58145C274FD5F80076488C /* 5086_배수와 약수.swift */; };
 		6C58145F274FD8600076488C /* 1032_명령 프롬포트.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C58145E274FD8600076488C /* 1032_명령 프롬포트.swift */; };
 		6C581461274FDCBE0076488C /* 1550_16진수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C581460274FDCBE0076488C /* 1550_16진수.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C0ACED42753512F00B38AE0 /* 11050_이항 계수 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11050_이항 계수 1.swift"; sourceTree = "<group>"; };
 		6C58145C274FD5F80076488C /* 5086_배수와 약수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5086_배수와 약수.swift"; sourceTree = "<group>"; };
 		6C58145E274FD8600076488C /* 1032_명령 프롬포트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1032_명령 프롬포트.swift"; sourceTree = "<group>"; };
 		6C581460274FDCBE0076488C /* 1550_16진수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1550_16진수.swift"; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				6C58148A274FE31E0076488C /* 11654_아스키코드.swift */,
 				6C58148C274FE32C0076488C /* 11720_숫자의 합.swift */,
 				6C58148E274FE3410076488C /* 10718_We love kriii.swift */,
+				6C0ACED42753512F00B38AE0 /* 11050_이항 계수 1.swift */,
 				6C581490274FE3520076488C /* 10998_AxB.swift */,
 				6C581492274FE35D0076488C /* 10869_사칙연산.swift */,
 				6C581494274FE3680076488C /* 2739_구구단.swift */,
@@ -277,6 +280,7 @@
 				6C5814A9274FE4180076488C /* 2753_윤년.swift in Sources */,
 				6C58146D274FE1A80076488C /* 4344_평균은 넘겠지.swift in Sources */,
 				6C581461274FDCBE0076488C /* 1550_16진수.swift in Sources */,
+				6C0ACED52753512F00B38AE0 /* 11050_이항 계수 1.swift in Sources */,
 				6C5814B1274FE4590076488C /* 2884_알람 시계.swift in Sources */,
 				6C581463274FE1100076488C /* 1966_프린터큐.swift in Sources */,
 				6C581469274FE1730076488C /* 14681_사분면 고르기.swift in Sources */,
