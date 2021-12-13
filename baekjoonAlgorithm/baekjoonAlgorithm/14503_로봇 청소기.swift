@@ -13,132 +13,84 @@ import Foundation
 // (r,c) d = 방향 ,  북쪽 0 , 동쪽 1, 남쪽 2, 서쪽 3
 
 func p14503() {
-    let widthLength = readLine()!.components(separatedBy: " ").map{Int($0)!}
-    let rcd = readLine()!.components(separatedBy: " ").map{Int($0)!}
-    var nowPosition = (rcd[0], rcd[1])
-    var nowDirection = rcd[2]
-    let width = widthLength[0]
-    let length = widthLength[1]
-    var room : [[Int]] = []
-    var cleanedRoom = 0
-    var isAble = true
-    for _ in 0..<length {
-        room.append(readLine()!.components(separatedBy: " ").map{Int($0)!})
-    }
-    func run() {
-        var r = nowPosition.0
-        var c = nowPosition.1
-        if room[r][c] == 0 {
-            room[r][c] = 1
+    struct Room {
+        var width : Int
+        var length : Int
+        var room : [[String]]
+        var x : Int
+        var y : Int
+        var direction : Int
+        var cleanedRoom = 0
+        init() {
+            var widthLength = readLine()!.components(separatedBy: " ").map{Int($0)!}
+            var positionDirection = readLine()!.components(separatedBy: " ").map{Int($0)!}
+            room = []
+            width = widthLength[1]
+            length = widthLength[0]
+            x = positionDirection[0]
+            y = positionDirection[1]
+            direction = positionDirection[2]
+            cleanedRoom = 0
+            for _ in 0..<length {
+                room.append(readLine()!.components(separatedBy: " "))
+            }
+            print(room)
+        }
+        mutating func run() {
+            
+        }
+        mutating func cleanRoom() {
+            room[x][y] = "1"
             cleanedRoom += 1
         }
-        var count = 0
-        while checkLeft(r, c, nowDirection) == "unAble" {
-            turnLeft()
-            count+=1
-            if count == 4 {
-                break
+        mutating func searchNext() {
+            let nextDirection = nextDirection()
+            while room[nextDirection.0][nextDirection.1] == "1"{
+                var count = 0
+                turnLeft()
+                x -= 1
+                count += 1
+                if count == 4 {
+                    break
+                }
             }
         }
-        if count == 4 {
-            if checkBack() == 1 {
-                print(cleanedRoom)
+        mutating func moveBack() {
+            switch direction {
+            case 0 :
+                x += 1
+            case 1 :
+                y += 1
+            case 2 :
+                x -= 1
+            case 3 :
+                y -= 1
+            default:
+                return
+            }
+        }
+        func nextDirection() -> (Int,Int) {
+            switch direction {
+            case 0:
+                return (x,y-1)
+            case 1:
+                return (x-1,y)
+            case 2:
+                return (x,y+1)
+            case 3:
+                return (x+1,y)
+            default:
+                return (x,y)
+            }
+        }
+        mutating func turnLeft() {
+            if direction==0 {
+                direction+=3
             }else {
-                moveBack()
-                run()
+                direction-=1
             }
-        }else {
-            moveNext()
-            run()
         }
     }
-    func checkPosition(_ r: Int,_ c : Int) -> Int {
-        return room[r][c]
-    }
-    func moveNext() {
-        switch nowDirection {
-        case 0:
-            turnLeft()
-            nowPosition = (nowPosition.0,nowPosition.1-1)
-        case 1:
-            turnLeft()
-            nowPosition = (nowPosition.0-1,nowPosition.1)
-        case 2:
-            turnLeft()
-            nowPosition = (nowPosition.0,nowPosition.1+1)
-        case 3:
-            turnLeft()
-            nowPosition = (nowPosition.0+1,nowPosition.1)
-        default:
-            return
-        }
-    }
-    func checkBack() -> Int {
-        switch nowDirection {
-        case 0:
-            return checkPosition(nowPosition.0+1,nowPosition.1)
-        case 1:
-            return checkPosition(nowPosition.0,nowPosition.1-1)
-        case 2:
-            return checkPosition(nowPosition.0-1,nowPosition.1)
-        case 3:
-            return checkPosition(nowPosition.0,nowPosition.1+1)
-        default:
-            return -1
-        }
-    }
-    func moveBack() {
-        switch nowDirection {
-        case 0:
-            nowPosition = (nowPosition.0+1,nowPosition.1)
-        case 1:
-            nowPosition = (nowPosition.0,nowPosition.1-1)
-        case 2:
-            nowPosition = (nowPosition.0-1,nowPosition.1)
-        case 3:
-            nowPosition = (nowPosition.0,nowPosition.1+1)
-        default:
-            return
-        }
-    }
-    func checkLeft(_ r: Int, _ c : Int, _ d : Int) -> String{
-        let tempPosition = (r,c)
-        switch d {
-        case 0:
-            if checkPosition(tempPosition.0,tempPosition.1-1) == 0 {
-                return "moveAble"
-            }else if checkPosition(tempPosition.0, tempPosition.1-1) == 1 {
-                return "unAble"
-            }
-        case 1:
-            if checkPosition(tempPosition.0-1,tempPosition.1) == 0 {
-                return "moveAble"
-            }else if checkPosition(tempPosition.0-1, tempPosition.1) == 1 {
-                return "unAble"
-            }
-        case 2:
-            if checkPosition(tempPosition.0,tempPosition.1+1) == 0 {
-                return "moveAble"
-            }else if checkPosition(tempPosition.0, tempPosition.1+1) == 1 {
-                return "unAble"
-            }
-        case 3:
-            if checkPosition(tempPosition.0+1,tempPosition.1) == 0 {
-                return "moveAble"
-            }else if checkPosition(tempPosition.0+1, tempPosition.1) == 1 {
-                return "unAble"
-            }
-        default:
-            return "invalid"
-        }
-        return ""
-    }
-    func turnLeft() {
-        if nowDirection==0 {
-            nowDirection+=1
-        }else {
-            nowDirection-=1
-        }
-    }
-    
+    let room = Room()
+    room
 }
