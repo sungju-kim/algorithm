@@ -13,84 +13,67 @@ import Foundation
 // (r,c) d = 방향 ,  북쪽 0 , 동쪽 1, 남쪽 2, 서쪽 3
 
 func p14503() {
-    struct Room {
-        var width : Int
-        var length : Int
-        var room : [[String]]
-        var x : Int
-        var y : Int
-        var direction : Int
-        var cleanedRoom = 0
-        init() {
-            var widthLength = readLine()!.components(separatedBy: " ").map{Int($0)!}
-            var positionDirection = readLine()!.components(separatedBy: " ").map{Int($0)!}
-            room = []
-            width = widthLength[1]
-            length = widthLength[0]
-            x = positionDirection[0]
-            y = positionDirection[1]
-            direction = positionDirection[2]
-            cleanedRoom = 0
-            for _ in 0..<length {
-                room.append(readLine()!.components(separatedBy: " "))
-            }
-            print(room)
-        }
-        mutating func run() {
-            
-        }
-        mutating func cleanRoom() {
-            room[x][y] = "1"
-            cleanedRoom += 1
-        }
-        mutating func searchNext() {
-            let nextDirection = nextDirection()
-            while room[nextDirection.0][nextDirection.1] == "1"{
-                var count = 0
-                turnLeft()
-                x -= 1
-                count += 1
-                if count == 4 {
-                    break
-                }
-            }
-        }
-        mutating func moveBack() {
-            switch direction {
-            case 0 :
-                x += 1
-            case 1 :
-                y += 1
-            case 2 :
-                x -= 1
-            case 3 :
-                y -= 1
-            default:
-                return
-            }
-        }
-        func nextDirection() -> (Int,Int) {
-            switch direction {
-            case 0:
-                return (x,y-1)
-            case 1:
-                return (x-1,y)
-            case 2:
-                return (x,y+1)
-            case 3:
-                return (x+1,y)
-            default:
-                return (x,y)
-            }
-        }
+    let lengthWidth = readLine()!.components(separatedBy: " ").map{Int($0)!}
+    let length = lengthWidth[0]
+    let rcd = readLine()!.components(separatedBy: " ").map{Int($0)!}
+    typealias Point = (r:Int, c:Int)
+    var currentPosition = Point(rcd[0],rcd[1])
+    var currentDirection = Direction(rawValue: rcd[2])!
+    var room : [[Int]] = []
+    for _ in 0..<length {
+        room.append(readLine()!.components(separatedBy: " ").map{Int($0)!})
+    }
+    enum Direction : Int {
+        case up = 0, right, down, left
         mutating func turnLeft() {
-            if direction==0 {
-                direction+=3
-            }else {
-                direction-=1
+            switch self {
+            case .up : self = .left
+            case .left : self = .down
+            case .down : self = .right
+            case .right : self = .up
             }
         }
     }
-    let room = Room()
-    room
+    var front : Point {
+        switch currentDirection {
+        case .up:return(currentPosition.r-1,currentPosition.c)
+        case .right:return(currentPosition.r,currentPosition.c+1)
+        case .down:return(currentPosition.r+1,currentPosition.c)
+        case .left:return(currentPosition.r,currentPosition.c-1)
+        }
+    }
+    var back : Point {
+        switch currentDirection {
+        case .up:return(currentPosition.r+1,currentPosition.c)
+        case .right:return(currentPosition.r,currentPosition.c-1)
+        case .down:return(currentPosition.r-1,currentPosition.c)
+        case .left:return(currentPosition.r,currentPosition.c+1)
+        }
+    }
+    
+    func isCleanAble() -> Bool {
+        for _ in 0..<4 {
+            currentDirection.turnLeft()
+            if room[front.r][front.c] == 0 {
+                currentPosition = front
+                return true
+            }
+        }
+        return false
+    }
+    var cleanCount = 0
+    func cleaner() {
+        while room[currentPosition.r][currentPosition.c] != 1 {
+            if room[currentPosition.r][currentPosition.c] == 0 {
+                room[currentPosition.r][currentPosition.c] = 2
+                cleanCount += 1
+            }
+            if !isCleanAble() {
+                currentPosition = back
+            }
+        }
+    }
+    cleaner()
+    print(cleanCount)
+    
 }
