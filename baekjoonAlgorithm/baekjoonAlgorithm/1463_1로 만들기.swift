@@ -4,9 +4,7 @@
 //
 //  Created by 성주 on 2021/12/20.
 //
-
 import Foundation
-
 func p1463() {
     var x = Int(readLine()!)!
     var count = 0
