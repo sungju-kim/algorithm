@@ -17,4 +17,5 @@ import Foundation
 //print(solutionRomanToInt.romanToInt("LVIII"))
 //print(soulutionLongestCommonPrefix.longestCommonPrefix(["abca","aba","aaab"]))
 
-print(solutionFibonacci.fib(6))
+//print(solutionFibonacci.fib(6))
+print(solutionTribonacci.tribonacci(25))
