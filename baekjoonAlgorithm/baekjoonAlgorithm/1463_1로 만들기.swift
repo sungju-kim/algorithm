@@ -5,35 +5,21 @@
 //  Created by 성주 on 2021/12/20.
 //
 import Foundation
-func p1463() {
-    var x = Int(readLine()!)!
-    var count = 0
-    while x != 1 {
-        if ((x%3) == 0) || (((x-1)%3) == 0) {
-            if (x%3) == 0 {
-                x /= 3
-                count += 1
-            }else if ((x-1)%3) == 0 {
-                x -= 1
-                count += 1
-                x /= 3
-                count += 1
-            }
+func p1463(){
+    let num = Int(readLine()!)!
+    var dp : [Int] = Array(repeating: 0, count: num+1)
+    if num == 1 {
+        print("0")
+        return
+    }
+    for i in 2...num{
+        dp[i] = dp[i-1] + 1
+        if i % 2 == 0 {
+            dp[i] = min(dp[i], dp[i/2] + 1)
         }
-        else if ((x%2) == 0) || (((x-1)%2) == 0) {
-            if (x%2) == 0 {
-                x /= 2
-                count += 1
-            }else if ((x-1)%2) == 0 {
-                x -= 1
-                count += 1
-                x /= 2
-                count += 1
-            }
-        }else {
-            x -= 1
-            count += 1
+        if i % 3 == 0 {
+            dp[i] = min(dp[i], dp[i/3] + 1)
         }
     }
-    print(count)
+    print(dp[num])
 }
