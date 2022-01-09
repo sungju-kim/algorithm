@@ -18,4 +18,6 @@ import Foundation
 //print(soulutionLongestCommonPrefix.longestCommonPrefix(["abca","aba","aaab"]))
 
 //print(solutionFibonacci.fib(6))
-print(solutionTribonacci.tribonacci(25))
+//print(solutionTribonacci.tribonacci(25))
+//print(climbStairsSolution.climbStairs(7))
+print(minCostClimbingStairsSolution.minCostClimbingStairs([1,100,1,1,1,100,1,1,100,1]))
