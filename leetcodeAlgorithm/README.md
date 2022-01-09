@@ -7,5 +7,8 @@
 * IsPalindrome
 * RomanToInt
 * LongestCommonPrefix
-* Fibonacci
-* Tribonacci
+* 509_Fibonacci
+* 1137_Tribonacci
+* 70_ClimbingStairs
+* 746_MinCostClimbingStairs
+
