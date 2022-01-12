@@ -20,4 +20,6 @@ import Foundation
 //print(solutionFibonacci.fib(6))
 //print(solutionTribonacci.tribonacci(25))
 //print(climbStairsSolution.climbStairs(7))
-print(minCostClimbingStairsSolution.minCostClimbingStairs([1,100,1,1,1,100,1,1,100,1]))
+//print(minCostClimbingStairsSolution.minCostClimbingStairs([1,100,1,1,1,100,1,1,100,1]))
+//print(deleteDuplicates.deleteDuplicates(listnode))
+print(hasCycle.hasCycle(cycleNode))

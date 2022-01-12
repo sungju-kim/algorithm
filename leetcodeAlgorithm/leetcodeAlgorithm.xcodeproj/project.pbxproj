@@ -16,6 +16,8 @@
 		6C5B4AEF2750865800C17A16 /* Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AEE2750865800C17A16 /* Roman to Integer.swift */; };
 		6C5B4AF927508AC900C17A16 /* Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AF827508AC900C17A16 /* Longest Common Prefix.swift */; };
 		6C5B4AFD2750A2EA00C17A16 /* Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B4AFC2750A2EA00C17A16 /* Merge Two Sorted Lists.swift */; };
+		6C79B8DE278EB46C00878348 /* removeDuplicatsFromSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C79B8DD278EB46C00878348 /* removeDuplicatsFromSortedList.swift */; };
+		6C79B8E0278EB48000878348 /* linkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C79B8DF278EB48000878348 /* linkedListCycle.swift */; };
 		6CAB30BA2789681D001B0F3D /* 509_FibonacciNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB30B92789681D001B0F3D /* 509_FibonacciNumber.swift */; };
 		6CAB30BC27897288001B0F3D /* 1137_tribonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB30BB27897288001B0F3D /* 1137_tribonacci.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,8 @@
 		6C5B4AEE2750865800C17A16 /* Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roman to Integer.swift"; sourceTree = "<group>"; };
 		6C5B4AF827508AC900C17A16 /* Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		6C5B4AFC2750A2EA00C17A16 /* Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
+		6C79B8DD278EB46C00878348 /* removeDuplicatsFromSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicatsFromSortedList.swift; sourceTree = "<group>"; };
+		6C79B8DF278EB48000878348 /* linkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkedListCycle.swift; sourceTree = "<group>"; };
 		6CAB30B92789681D001B0F3D /* 509_FibonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 509_FibonacciNumber.swift; sourceTree = "<group>"; };
 		6CAB30BB27897288001B0F3D /* 1137_tribonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1137_tribonacci.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +90,8 @@
 				6C5B4AEE2750865800C17A16 /* Roman to Integer.swift */,
 				6C5B4AEC275083C000C17A16 /* Palindrome Number.swift */,
 				6C5B4AF827508AC900C17A16 /* Longest Common Prefix.swift */,
+				6C79B8DD278EB46C00878348 /* removeDuplicatsFromSortedList.swift */,
+				6C79B8DF278EB48000878348 /* linkedListCycle.swift */,
 				6C12C427278AB0E9007921B9 /* 70_ClimbingStairs.swift */,
 				6C12C429278AB7AA007921B9 /* 746_MinCostClimbingStairs.swift */,
 			);
@@ -152,6 +158,7 @@
 			files = (
 				6CAB30BC27897288001B0F3D /* 1137_tribonacci.swift in Sources */,
 				6C12C428278AB0E9007921B9 /* 70_ClimbingStairs.swift in Sources */,
+				6C79B8DE278EB46C00878348 /* removeDuplicatsFromSortedList.swift in Sources */,
 				6CAB30BA2789681D001B0F3D /* 509_FibonacciNumber.swift in Sources */,
 				6C5B4AE927507ECA00C17A16 /* twoSum.swift in Sources */,
 				6C5B4AEF2750865800C17A16 /* Roman to Integer.swift in Sources */,
@@ -159,6 +166,7 @@
 				6C5B4AEB27507F6300C17A16 /* Reverse Integer.swift in Sources */,
 				6C5B4AED275083C000C17A16 /* Palindrome Number.swift in Sources */,
 				6C5B4AE227507B1600C17A16 /* main.swift in Sources */,
+				6C79B8E0278EB48000878348 /* linkedListCycle.swift in Sources */,
 				6C5B4AF927508AC900C17A16 /* Longest Common Prefix.swift in Sources */,
 				6C5B4AFD2750A2EA00C17A16 /* Merge Two Sorted Lists.swift in Sources */,
 			);
