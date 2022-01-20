@@ -18,7 +18,6 @@ func mockExam(_ answers:[Int]) -> [Int] {
     for i in answers {
         for person in persons{
             let indexOfPerson = persons.firstIndex(of: person)!
-//            guard let indexOfPerson = indexOfPerson else {return [0]}
             if i == person[answerNum % person.count] {
                 score[indexOfPerson] += 1
             }

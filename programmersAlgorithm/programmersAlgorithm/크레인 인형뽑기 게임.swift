@@ -17,16 +17,15 @@ func dollCountSolution(_ board:[[Int]], _ moves:[Int]) -> Int {
             if boardArr[i][j-1] != 0 {
                 if basket[basket.count-1] == boardArr[i][j-1] {
                     dollCount += 2
-                    boardArr[i][j-1] = 0
                     basket.removeLast()
-                
                 } else {
                     basket.append(boardArr[i][j-1])
-                    boardArr[i][j-1] = 0
                 }
+                boardArr[i][j-1] = 0
                 break
             }
         }
     }
     return dollCount
 }
+

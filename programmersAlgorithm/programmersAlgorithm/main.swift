@@ -25,22 +25,6 @@ import Foundation
 
 //print(compressionSolution("abcabcabcabcdededededede"))
 
+//print(oddSolution("try hello world"))
 
-
-func a() -> String {
-    var stringClass = StringThing()
-    b(stringClass.str)
-    return stringClass.str
-}
-
-
-func b(_ s : String) -> String {
-    var stringClass = StringThing()
-    stringClass.str = "2"
-    return "0"
-}
-class StringThing {
-    var str = "1"
-}
-
-print(a())
+print(kNumSolution([1,5,2,6,3,7,4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]))
