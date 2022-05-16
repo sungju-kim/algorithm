@@ -2,6 +2,13 @@ import XCTest
 
 class programmersTest: XCTestCase {
     
+    func testTouchKeyPad() {
+        let touchKeyPad = TouchKeyPad()
+        XCTAssertTrue(touchKeyPad.solution([1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5], "right") == "LRLLLRLLRRL")
+        XCTAssertTrue(touchKeyPad.solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2], "left") == "LRLLRRLLLRR")
+        XCTAssertTrue(touchKeyPad.solution([1, 2, 3, 4, 5, 6, 7, 8, 9, 0], "right") == "LLRLLRLLRL")
+    }
+    
     func testNumberString() {
         let numberString = NumberString()
         XCTAssertTrue(numberString.solution("one4seveneight") == 1478 )
@@ -61,15 +68,15 @@ class programmersTest: XCTestCase {
         XCTAssertTrue(lottos.solution([45, 4, 35, 20, 3, 9], [20, 9, 3, 45, 4, 35]) == [1, 1])
         
     }
-
-//    func testStringCompress() {
-//        let stringCompress = StringCompress()
-//        XCTAssertTrue(stringCompress.solution("aabbaccc") == 7)
-//        XCTAssertTrue(stringCompress.solution("ababcdcdababcdcd") == 9)
-//        XCTAssertTrue(stringCompress.solution("abcabcdede") == 8)
-//        XCTAssertTrue(stringCompress.solution("abcabcabcabcdededededede") == 14)
-//        XCTAssertTrue(stringCompress.solution("xababcdcdababcdcd") == 17)
-//    }
+    
+    //    func testStringCompress() {
+    //        let stringCompress = StringCompress()
+    //        XCTAssertTrue(stringCompress.solution("aabbaccc") == 7)
+    //        XCTAssertTrue(stringCompress.solution("ababcdcdababcdcd") == 9)
+    //        XCTAssertTrue(stringCompress.solution("abcabcdede") == 8)
+    //        XCTAssertTrue(stringCompress.solution("abcabcabcabcdededededede") == 14)
+    //        XCTAssertTrue(stringCompress.solution("xababcdcdababcdcd") == 17)
+    //    }
     
     func testOddString() {
         let oddString = OddString()
@@ -78,14 +85,13 @@ class programmersTest: XCTestCase {
     
     func testKNum() {
         let kNum = KNum()
-        XCTAssertTrue(kNum.solution([1,5,2,6,3,7,4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]) == [5, 6, 3])        
+        XCTAssertTrue(kNum.solution([1,5,2,6,3,7,4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]) == [5, 6, 3])
     }
     
     func testSearchNum() {
         let searchNum = SearchNum()
         XCTAssertTrue(searchNum.solution(10) == 3 )
         XCTAssertTrue(searchNum.solution(12) == 11 )
-
     }
     
     func testBadUser() {
@@ -93,5 +99,4 @@ class programmersTest: XCTestCase {
         XCTAssertTrue(badUser.solution(["muzi", "frodo", "apeach", "neo"], ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"], 2) == [2,1,1,0] )
         XCTAssertTrue(badUser.solution(["con", "ryan"], ["ryan con", "ryan con", "ryan con", "ryan con"], 3) == [0,0] )
     }
-
 }
