@@ -1,10 +1,3 @@
-//
-//  K번째수.swift
-//  programmersAlgorithm
-//
-//  Created by dale on 2022/01/19.
-//
-
 import Foundation
 
 func kNumSolution(_ array:[Int], _ commands:[[Int]]) -> [Int] {

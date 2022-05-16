@@ -27,4 +27,6 @@ import Foundation
 
 //print(oddSolution("try hello world"))
 
-print(kNumSolution([1,5,2,6,3,7,4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]))
+//print(kNumSolution([1,5,2,6,3,7,4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]))
+
+print(failure(5, [2, 1, 2, 6, 2, 4, 3, 3]))

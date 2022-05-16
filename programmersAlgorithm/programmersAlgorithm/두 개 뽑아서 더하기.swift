@@ -1,10 +1,3 @@
-//
-//  두 개 뽑아서 더하기.swift
-//  programmersAlgorithm
-//
-//  Created by 성주 on 2021/11/12.
-//
-
 import Foundation
 
 func popAndSum(_ numbers:[Int]) -> [Int] {

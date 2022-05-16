@@ -15,9 +15,11 @@ import Foundation
 
 //aVeryBigSum.printResult()
 
-timeConversion.printResult()
+//timeConversion.printResult()
 //kangaroo.printResult()
 
 //climbingLeaderboard.printResult()
 
 
+//diagonalDifference.printResult(arr: [[11, 2, 4],[4 ,5 ,6],[10, 8, -12]])
+saveThePrisoner.printResult()

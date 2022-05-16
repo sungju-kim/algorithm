@@ -1,10 +1,3 @@
-//
-//  모의고사.swift
-//  programmersAlgorithm
-//
-//  Created by 성주 on 2021/11/12.
-//
-
 import Foundation
 
 func mockExam(_ answers:[Int]) -> [Int] {

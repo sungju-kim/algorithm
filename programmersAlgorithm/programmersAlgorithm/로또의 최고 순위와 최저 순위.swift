@@ -1,10 +1,3 @@
-//
-//  로또의 최고 순위와 최저 순위.swift
-//  programmersAlgorithm
-//
-//  Created by 성주 on 2021/11/14.
-//
-
 import Foundation
 
 func lottosSolution(_ lottos:[Int], _ win_nums:[Int]) -> [Int] {

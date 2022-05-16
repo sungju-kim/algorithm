@@ -7,26 +7,23 @@
 
 import Foundation
 struct TimeConversion {
-    let s = "12:05:45PM"
+    let s = "12:40:03PM"
     func timeConversion(s: String) -> String {
         let antePostMeridiem = s.suffix(2)
-        var onlyTime = s.prefix(8).components(separatedBy: ":").map{$0}
+        let onlyTime = s.prefix(8).components(separatedBy: ":").map{$0}
         var hour = onlyTime[0]
-        let newHour = String(Int(hour)! + 12)
-        switch (antePostMeridiem, hour) {
-        case ("PM", "12"):
+        switch (antePostMeridiem,hour) {
+        case ("PM","12"):
             hour = "12"
-        case ("PM", _ ):
-            hour = newHour
-        case ("AM", "12"):
+        case ("PM",_):
+            hour = String(Int(hour)!+12)
+        case ("AM","12"):
             hour = "00"
-        default:
-            return "fail"
+        case ("AM",_):
+            hour = "0" + String(Int(hour)!)
+        default: break
         }
-        
-        onlyTime[0] = String(hour)
-        
-        return "\(onlyTime[0]):\(onlyTime[1]):\(onlyTime[2])"
+        return "\(hour):\(onlyTime[1]):\(onlyTime[2])"
     }
     
     func printResult(){

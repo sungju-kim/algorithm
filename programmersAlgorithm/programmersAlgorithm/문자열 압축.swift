@@ -1,10 +1,3 @@
-//
-//  문자열 압축.swift
-//  programmersAlgorithm
-//
-//  Created by 성주 on 2021/11/14.
-//
-
 import Foundation
 
 func compressionSolution(_ s:String) -> Int {

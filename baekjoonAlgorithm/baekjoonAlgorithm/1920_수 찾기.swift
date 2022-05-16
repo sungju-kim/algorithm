@@ -8,5 +8,5 @@ func p1920() {
     
     var temp: [Int: Bool] = [:]
     arr.forEach{temp[$0] = true}
-    nums.forEach{arr.contains($0) ? print(1) : print(0)}
+    nums.forEach{temp.keys.contains($0) ? print(1) : print(0)}
 }

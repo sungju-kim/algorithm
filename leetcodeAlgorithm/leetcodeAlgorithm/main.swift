@@ -22,4 +22,11 @@ import Foundation
 //print(climbStairsSolution.climbStairs(7))
 //print(minCostClimbingStairsSolution.minCostClimbingStairs([1,100,1,1,1,100,1,1,100,1]))
 //print(deleteDuplicates.deleteDuplicates(listnode))
-print(hasCycle.hasCycle(cycleNode))
+//print(hasCycle.hasCycle(cycleNode))
+//print(commonWords.countWords(["leetcode","is","amazing","as","is"], ["amazing","leetcode","is"]))
+//print(p1748([1,2,3,2]))
+//print(p1748([1,1,1,1,1]))
+//print(p1748([1,2,3,4,5]))
+print(p2185(["pay","attention","practice","attend"] , "at"))
+print(p2185(["leetcode","win","loops","success"], "code"))
+

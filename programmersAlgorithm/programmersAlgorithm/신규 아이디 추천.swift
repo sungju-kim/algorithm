@@ -1,10 +1,3 @@
-//
-//  신규 아이디 추천.swift
-//  programmersAlgorithm
-//
-//  Created by 성주 on 2021/11/14.
-//
-
 import Foundation
 
 func suggestNewId(_ new_id:String) -> String {

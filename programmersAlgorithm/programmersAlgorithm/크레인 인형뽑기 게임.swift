@@ -1,10 +1,3 @@
-//
-//  크레인 인형뽑기 게임.swift
-//  programmersAlgorithm
-//
-//  Created by 성주 on 2021/11/12.
-//
-
 import Foundation
 
 func dollCountSolution(_ board:[[Int]], _ moves:[Int]) -> Int {
