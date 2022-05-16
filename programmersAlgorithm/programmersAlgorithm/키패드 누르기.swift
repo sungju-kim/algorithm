@@ -1,7 +1,7 @@
 import Foundation
 
 struct TouchKeyPad {
-    func solution(_ numbers:[Int], _ hand:String) -> String {
+    static func solution(_ numbers:[Int], _ hand:String) -> String {
         var result = ""
         
         var lastLeft: (Int,Int) = (1,4)

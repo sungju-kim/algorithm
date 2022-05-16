@@ -1,7 +1,7 @@
 import Foundation
 
 struct BadUser {
-    func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
+    static func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
         var totalId: [String: [String: Int]] = [:]
         var reports: [String: Int] = [:]
         var bannedUser: [String] = []

@@ -1,7 +1,7 @@
 import Foundation
 
 struct DollCount {
-    func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
+    static func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
         var dollCount = 0
         var boardArr = board
         let rowNum = board.count-1

@@ -1,14 +1,14 @@
 import Foundation
 
 struct Lottos {
-    func solution(_ lottos:[Int], _ win_nums:[Int]) -> [Int] {
+    static func solution(_ lottos:[Int], _ win_nums:[Int]) -> [Int] {
         let maxNum = lottos.filter{win_nums.contains($0)}.count + lottos.filter{Int($0) == 0}.count
         let minNum = lottos.filter{win_nums.contains($0)}.count
         
         return [returnMaxMin(maxNum), returnMaxMin(minNum)]
     }
     
-    func returnMaxMin(_ num : Int) -> Int {
+    static func returnMaxMin(_ num : Int) -> Int {
         switch num {
         case 6:
             return 1

@@ -1,7 +1,7 @@
 import Foundation
 
 struct StringCompress {
-    func solution(_ s:String) -> Int {
+    static func solution(_ s:String) -> Int {
         let string = s
         let newString = sliceString(string)
         let compress = newString.count
@@ -10,7 +10,7 @@ struct StringCompress {
         return compressedString.count
     }
     
-    func sliceString(_ s: String) -> String {
+    static func sliceString(_ s: String) -> String {
         let string = s
         var prefixed = string
         for i in 0..<string.count {

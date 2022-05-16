@@ -1,7 +1,7 @@
 import Foundation
 
 struct Failure {
-    func solution(_ N:Int, _ stages:[Int]) -> [Int] {
+    static func solution(_ N:Int, _ stages:[Int]) -> [Int] {
         var result : [Int:Float] = [:]
         let dic = stages.reduce(into: [Int:Int]()) { $0[$1, default: 0] += 1 }
         for n in 1...N {
