@@ -2,6 +2,14 @@ import XCTest
 
 class programmersTest: XCTestCase {
     
+    func testNumberString() {
+        let numberString = NumberString()
+        XCTAssertTrue(numberString.solution("one4seveneight") == 1478 )
+        XCTAssertTrue(numberString.solution("23four5six7") == 234567 )
+        XCTAssertTrue(numberString.solution("2three45sixseven") == 234567 )
+        XCTAssertTrue(numberString.solution("123") == 123 )
+    }
+    
     func testDividableArray() {
         let dividableArray = DividableArray()
         XCTAssertTrue(dividableArray.solution([5, 9, 7, 10], 5) == [5, 10])
