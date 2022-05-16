@@ -1,7 +1,7 @@
 import Foundation
 
 func compressionSolution(_ s:String) -> Int {
-    var string = s
+    let string = s
     let newString = sliceString(string)
     let compress = newString.count
     let compressedString = String(compress) + newString
