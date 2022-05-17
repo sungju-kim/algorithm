@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func testMissingNumber() {
+        XCTAssertTrue(MissingNumber.solution([1,2,3,4,6,7,8,0]) == 14)
+        XCTAssertTrue(MissingNumber.solution([5,8,4,0,6,7,9]) == 6)
+    }
+    
     func testGymSuit() {
         XCTAssertTrue(GymSuit.solution(5, [2, 4], [1, 3, 5]) == 5)
         XCTAssertTrue(GymSuit.solution(5, [2, 4], [3]) == 4)
