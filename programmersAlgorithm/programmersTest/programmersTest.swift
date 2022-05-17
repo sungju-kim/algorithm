@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func testP와Y의개수() {
+        XCTAssertTrue(P와Y의개수.solution("pPoooyY") == true)
+        XCTAssertTrue(P와Y의개수.solution("Pyy") == false)
+    }
+    
     func test문자열내마음대로정렬하기() {
         XCTAssertTrue(문자열내마음대로정렬하기.solution(["sun", "bed", "car"], 1) == ["car", "bed", "sun"])
         XCTAssertTrue(문자열내마음대로정렬하기.solution(["abce", "abcd", "cdx"], 2) == ["abcd", "abce", "cdx"])
