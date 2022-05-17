@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test내적() {
+        XCTAssertTrue(내적.solution([1,2,3,4], [-3,-1,0,2]) == 3)
+        XCTAssertTrue(내적.solution([-1,0,1], [1,0,-1]) == -2)
+    }
+    
     func testPlusMinus() {
         XCTAssertTrue(PlusMinus.solution([4,7,12], [true,false,true]) == 9)
         XCTAssertTrue(PlusMinus.solution([1,2,3], [false,false,true]) == 0)
