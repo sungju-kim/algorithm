@@ -1,6 +1,10 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test내림차순배치하기() {
+        XCTAssertTrue(내림차순배치하기.solution("Zbcdefg") == "gfedcbZ")
+    }
+    
     func testP와Y의개수() {
         XCTAssertTrue(P와Y의개수.solution("pPoooyY") == true)
         XCTAssertTrue(P와Y의개수.solution("Pyy") == false)
