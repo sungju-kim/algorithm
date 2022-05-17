@@ -1,6 +1,12 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test문자열다루기기본() {
+        XCTAssertTrue(문자열다루기기본.solution("a234") == false)
+        XCTAssertTrue(문자열다루기기본.solution("1234") == true)
+        
+    }
+    
     func test내림차순배치하기() {
         XCTAssertTrue(내림차순배치하기.solution("Zbcdefg") == "gfedcbZ")
     }
