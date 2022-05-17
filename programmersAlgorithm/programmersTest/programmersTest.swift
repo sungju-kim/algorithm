@@ -1,6 +1,10 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test서울에서김서방찾기() {
+        XCTAssertTrue(서울에서김서방찾기.solution(["Jane", "Kim"]) == "김서방은 1에 있다")
+    }
+    
     func test문자열다루기기본() {
         XCTAssertTrue(문자열다루기기본.solution("a234") == false)
         XCTAssertTrue(문자열다루기기본.solution("1234") == true)
