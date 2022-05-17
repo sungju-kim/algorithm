@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test문자열내마음대로정렬하기() {
+        XCTAssertTrue(문자열내마음대로정렬하기.solution(["sun", "bed", "car"], 1) == ["car", "bed", "sun"])
+        XCTAssertTrue(문자열내마음대로정렬하기.solution(["abce", "abcd", "cdx"], 2) == ["abcd", "abce", "cdx"])
+    }
+    
     func test두정수사이의합() {
         XCTAssertTrue(두정수사이의합.solution(3, 5) == 12)
         XCTAssertTrue(두정수사이의합.solution(3, 3) == 3)
