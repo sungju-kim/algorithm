@@ -1,6 +1,10 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test부족한금액계산() {
+        XCTAssertTrue(부족한금액계산.solution(3, 20, 4) == 10)
+    }
+    
     func test최소직사각형() {
         XCTAssertTrue(최소직사각형.solution([[60, 50], [30, 70], [60, 30], [80, 40]]) == 4000)
         XCTAssertTrue(최소직사각형.solution([[10, 7], [12, 3], [8, 15], [14, 7], [5, 15]]) == 120)
