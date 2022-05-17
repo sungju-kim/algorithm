@@ -94,13 +94,13 @@ class programmersTest: XCTestCase {
         
     }
     
-    //    func testStringCompress() {
-    //        XCTAssertTrue(stringCompress.solution("aabbaccc") == 7)
-    //        XCTAssertTrue(stringCompress.solution("ababcdcdababcdcd") == 9)
-    //        XCTAssertTrue(stringCompress.solution("abcabcdede") == 8)
-    //        XCTAssertTrue(stringCompress.solution("abcabcabcabcdededededede") == 14)
-    //        XCTAssertTrue(stringCompress.solution("xababcdcdababcdcd") == 17)
-    //    }
+        func testStringCompress() {
+            XCTAssertTrue(StringCompress.solution("aabbaccc") == 7)
+            XCTAssertTrue(StringCompress.solution("ababcdcdababcdcd") == 9)
+            XCTAssertTrue(StringCompress.solution("abcabcdede") == 8)
+            XCTAssertTrue(StringCompress.solution("abcabcabcabcdededededede") == 14)
+            XCTAssertTrue(StringCompress.solution("xababcdcdababcdcd") == 17)
+        }
     
     func testOddString() {
         XCTAssertTrue(OddString.solution("try hello world") == "TrY HeLlO WoRlD")
