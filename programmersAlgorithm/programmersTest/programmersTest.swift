@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test자릿수더하기() {
+        XCTAssertTrue(자릿수더하기.solution(123) == 6)
+        XCTAssertTrue(자릿수더하기.solution(987) == 24)
+    }
+    
     func test시저암호() {
         XCTAssertTrue(시저암호.solution("AB" ,1) == "BC")
         XCTAssertTrue(시저암호.solution("z", 1) == "a")
