@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test약수의갯수와덧셈() {
+        XCTAssertTrue(약수의갯수와덧셈.solution(13, 17) == 43)
+        XCTAssertTrue(약수의갯수와덧셈.solution(24, 27) == 52)
+    }
+    
     func test소수만들기() {
         XCTAssertTrue(소수만들기.solution([1,2,3,4]) == 1)
         XCTAssertTrue(소수만들기.solution([1,2,7,6,4]) == 4)
