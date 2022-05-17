@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test수박수박수() {
+        XCTAssertTrue(수박수박수.solution(3) == "수박수")
+        XCTAssertTrue(수박수박수.solution(4) == "수박수박")
+    }
+    
     func test예산() {
         XCTAssertTrue(예산.solution([1,3,2,5,4], 9) == 3)
         XCTAssertTrue(예산.solution([2,2,3,3], 10) == 4)
