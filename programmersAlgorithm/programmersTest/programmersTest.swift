@@ -1,6 +1,12 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test두정수사이의합() {
+        XCTAssertTrue(두정수사이의합.solution(3, 5) == 12)
+        XCTAssertTrue(두정수사이의합.solution(3, 3) == 3)
+        XCTAssertTrue(두정수사이의합.solution(5, 3) == 12)
+    }
+    
     func test부족한금액계산() {
         XCTAssertTrue(부족한금액계산.solution(3, 20, 4) == 10)
     }
