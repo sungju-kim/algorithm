@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test문자열정수로바꾸기() {
+        XCTAssertTrue(문자열정수로바꾸기.solution("1234") == 1234)
+        XCTAssertTrue(문자열정수로바꾸기.solution("-1234") == -1234)
+    }
+    
     func test서울에서김서방찾기() {
         XCTAssertTrue(서울에서김서방찾기.solution(["Jane", "Kim"]) == "김서방은 1에 있다")
     }
