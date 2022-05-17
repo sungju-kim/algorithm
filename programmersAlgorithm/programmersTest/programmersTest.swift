@@ -1,6 +1,12 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test최소직사각형() {
+        XCTAssertTrue(최소직사각형.solution([[60, 50], [30, 70], [60, 30], [80, 40]]) == 4000)
+        XCTAssertTrue(최소직사각형.solution([[10, 7], [12, 3], [8, 15], [14, 7], [5, 15]]) == 120)
+        XCTAssertTrue(최소직사각형.solution([[14, 4], [19, 6], [6, 16], [18, 7], [7, 11]]) == 133)
+    }
+    
     func test수박수박수() {
         XCTAssertTrue(수박수박수.solution(3) == "수박수")
         XCTAssertTrue(수박수박수.solution(4) == "수박수박")
