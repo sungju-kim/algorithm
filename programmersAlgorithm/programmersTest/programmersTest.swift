@@ -1,6 +1,10 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test자연수뒤집어배열로만들기() {
+        XCTAssertTrue(자연수뒤집어배열로만들기.solution(12345) == [5,4,3,2,1])
+    }
+    
     func test자릿수더하기() {
         XCTAssertTrue(자릿수더하기.solution(123) == 6)
         XCTAssertTrue(자릿수더하기.solution(987) == 24)
