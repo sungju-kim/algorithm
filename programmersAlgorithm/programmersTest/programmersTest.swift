@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test소수만들기() {
+        XCTAssertTrue(소수만들기.solution([1,2,3,4]) == 1)
+        XCTAssertTrue(소수만들기.solution([1,2,7,6,4]) == 4)
+    }
+    
     func test내적() {
         XCTAssertTrue(내적.solution([1,2,3,4], [-3,-1,0,2]) == 3)
         XCTAssertTrue(내적.solution([-1,0,1], [1,0,-1]) == -2)
