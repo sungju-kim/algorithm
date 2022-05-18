@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test짝수와홀수() {
+        XCTAssertTrue(짝수와홀수.solution(3) == "Odd")
+        XCTAssertTrue(짝수와홀수.solution(4) == "Even")
+    }
+    
     func test제일작은수제거하기() {
         XCTAssertTrue(제일작은수제거하기.solution([4, 3 ,2 ,1]) == [4, 3, 2])
         XCTAssertTrue(제일작은수제거하기.solution([10]) == [-1])
