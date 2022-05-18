@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test행렬의덧셈() {
+        XCTAssertTrue(행렬의덧셈.solution([[1,2],[2,3]], [[3,4],[5,6]]) == [[4,6],[7,9]])
+        XCTAssertTrue(행렬의덧셈.solution([[1],[2]], [[3],[4]]) == [[4],[6]])
+    }
+    
     func test핸드폰번호가리기() {
         XCTAssertTrue(핸드폰번호가리기.solution("01033334444") == "*******4444")
         XCTAssertTrue(핸드폰번호가리기.solution("0277778888") == "******8888")
