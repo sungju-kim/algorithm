@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test핸드폰번호가리기() {
+        XCTAssertTrue(핸드폰번호가리기.solution("01033334444") == "*******4444")
+        XCTAssertTrue(핸드폰번호가리기.solution("0277778888") == "******8888")
+    }
+    
     func test하샤드수() {
         XCTAssertTrue(하샤드수.solution(10) == true)
         XCTAssertTrue(하샤드수.solution(11) == false)
