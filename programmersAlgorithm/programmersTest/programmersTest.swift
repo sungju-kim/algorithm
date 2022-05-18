@@ -1,6 +1,10 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test정수내림차순으로배치하기() {
+        XCTAssertTrue(정수내림차순으로배치하기.solution(118372) == 873211)
+    }
+    
     func test자연수뒤집어배열로만들기() {
         XCTAssertTrue(자연수뒤집어배열로만들기.solution(12345) == [5,4,3,2,1])
     }
