@@ -1,6 +1,12 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func testX만큼간격이있는N개의숫자() {
+        XCTAssertTrue(X만큼간격이있는N개의숫자.solution(2, 5) == [2,4,6,8,10])
+        XCTAssertTrue(X만큼간격이있는N개의숫자.solution(4, 3) == [4,8,12])
+        XCTAssertTrue(X만큼간격이있는N개의숫자.solution(-4, 2) == [-4, -8])
+    }
+    
     func test행렬의덧셈() {
         XCTAssertTrue(행렬의덧셈.solution([[1,2],[2,3]], [[3,4],[5,6]]) == [[4,6],[7,9]])
         XCTAssertTrue(행렬의덧셈.solution([[1],[2]], [[3],[4]]) == [[4],[6]])
