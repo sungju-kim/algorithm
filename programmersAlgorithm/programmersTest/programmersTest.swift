@@ -1,6 +1,12 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test콜라츠추측() {
+        XCTAssertTrue(콜라츠추측.solution(6) == 8)
+        XCTAssertTrue(콜라츠추측.solution(16) == 4)
+        XCTAssertTrue(콜라츠추측.solution(626331) == -1)
+    }
+    
     func test최대공약수와최소공배수() {
         XCTAssertTrue(최대공약수와최소공배수.solution(3, 12) == [3, 12])
         XCTAssertTrue(최대공약수와최소공배수.solution(2, 5) == [1, 10])
