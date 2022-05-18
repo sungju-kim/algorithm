@@ -1,6 +1,21 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test타겟넘버() {
+        XCTAssertTrue(타겟넘버.solution([1, 1, 1, 1, 1], 3) == 5)
+        XCTAssertTrue(타겟넘버.solution([4, 1, 2, 1], 4) == 2)
+    }
+    
+    func test단어변환() {
+        XCTAssertTrue(단어변환.solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]) == 4)
+        XCTAssertTrue(단어변환.solution("hit", "cog", ["hot", "dot", "dog", "lot", "log"]) == 0)
+    }
+    
+    func testN으로표현() {
+        XCTAssertTrue(N으로표현.solution(5, 12) == 4)
+        XCTAssertTrue(N으로표현.solution(2, 11) == 3)
+    }
+    
     func test정수제곱근판별() {
         XCTAssertTrue(정수제곱근판별.solution(121) == 144)
         XCTAssertTrue(정수제곱근판별.solution(3) == -1)
