@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test최대공약수와최소공배수() {
+        XCTAssertTrue(최대공약수와최소공배수.solution(3, 12) == [3, 12])
+        XCTAssertTrue(최대공약수와최소공배수.solution(2, 5) == [1, 10])
+    }
+    
     func test짝수와홀수() {
         XCTAssertTrue(짝수와홀수.solution(3) == "Odd")
         XCTAssertTrue(짝수와홀수.solution(4) == "Even")
