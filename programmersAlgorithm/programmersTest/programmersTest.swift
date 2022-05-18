@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test평균구하기() {
+        XCTAssertTrue(평균구하기.solution([1,2,3,4]) == 2.5)
+        XCTAssertTrue(평균구하기.solution([5,5]) == 5)
+    }
+    
     func test콜라츠추측() {
         XCTAssertTrue(콜라츠추측.solution(6) == 8)
         XCTAssertTrue(콜라츠추측.solution(16) == 4)
