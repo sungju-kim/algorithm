@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test비밀지도() {
+        XCTAssertTrue(비밀지도.solution(5, [9, 20, 28, 18, 11], [30, 1, 21, 17, 28]) == ["#####", "# # #", "### #", "#  ##", "#####"])
+        XCTAssertTrue(비밀지도.solution(6, [46, 33, 33 ,22, 31, 50], [27 ,56, 19, 14, 14, 10]) == ["######", "###  #", "##  ##", " #### ", " #####", "### # "])
+    }
+    
     func testX만큼간격이있는N개의숫자() {
         XCTAssertTrue(X만큼간격이있는N개의숫자.solution(2, 5) == [2,4,6,8,10])
         XCTAssertTrue(X만큼간격이있는N개의숫자.solution(4, 3) == [4,8,12])
