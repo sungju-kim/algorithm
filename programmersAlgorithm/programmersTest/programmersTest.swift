@@ -1,6 +1,11 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test정수제곱근판별() {
+        XCTAssertTrue(정수제곱근판별.solution(121) == 144)
+        XCTAssertTrue(정수제곱근판별.solution(3) == -1)
+    }
+    
     func test정수내림차순으로배치하기() {
         XCTAssertTrue(정수내림차순으로배치하기.solution(118372) == 873211)
     }
