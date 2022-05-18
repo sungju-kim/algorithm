@@ -1,6 +1,12 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test모음사전() {
+        XCTAssertTrue(모음사전.solution("AAAAE") == 6)
+        XCTAssertTrue(모음사전.solution("AAAE") == 10)
+        XCTAssertTrue(모음사전.solution("I") == 1563)
+        XCTAssertTrue(모음사전.solution("EIO") == 1189)
+    }
     func test다트게임() {
         XCTAssertTrue(다트게임.solution("1S2D*3T") == 37)
         XCTAssertTrue(다트게임.solution("1D2S#10S") == 9)
@@ -252,13 +258,13 @@ class programmersTest: XCTestCase {
         
     }
     
-        func testStringCompress() {
-            XCTAssertTrue(StringCompress.solution("aabbaccc") == 7)
-            XCTAssertTrue(StringCompress.solution("ababcdcdababcdcd") == 9)
-            XCTAssertTrue(StringCompress.solution("abcabcdede") == 8)
-            XCTAssertTrue(StringCompress.solution("abcabcabcabcdededededede") == 14)
-            XCTAssertTrue(StringCompress.solution("xababcdcdababcdcd") == 17)
-        }
+    func testStringCompress() {
+        XCTAssertTrue(StringCompress.solution("aabbaccc") == 7)
+        XCTAssertTrue(StringCompress.solution("ababcdcdababcdcd") == 9)
+        XCTAssertTrue(StringCompress.solution("abcabcdede") == 8)
+        XCTAssertTrue(StringCompress.solution("abcabcabcabcdededededede") == 14)
+        XCTAssertTrue(StringCompress.solution("xababcdcdababcdcd") == 17)
+    }
     
     func testOddString() {
         XCTAssertTrue(OddString.solution("try hello world") == "TrY HeLlO WoRlD")
