@@ -1,6 +1,15 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test다트게임() {
+        XCTAssertTrue(다트게임.solution("1S2D*3T") == 37)
+        XCTAssertTrue(다트게임.solution("1D2S#10S") == 9)
+        XCTAssertTrue(다트게임.solution("1D2S0T") == 3)
+        XCTAssertTrue(다트게임.solution("1S*2T*3S") == 23)
+        XCTAssertTrue(다트게임.solution("1D#2S*3S") == 5)
+        XCTAssertTrue(다트게임.solution("1T2D3D#") == -4)
+        XCTAssertTrue(다트게임.solution("1D2S3T*") == 59)
+    }
     func test비밀지도() {
         XCTAssertTrue(비밀지도.solution(5, [9, 20, 28, 18, 11], [30, 1, 21, 17, 28]) == ["#####", "# # #", "### #", "#  ##", "#####"])
         XCTAssertTrue(비밀지도.solution(6, [46, 33, 33 ,22, 31, 50], [27 ,56, 19, 14, 14, 10]) == ["######", "###  #", "##  ##", " #### ", " #####", "### # "])
