@@ -1,6 +1,12 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test제일작은수제거하기() {
+        XCTAssertTrue(제일작은수제거하기.solution([4, 3 ,2 ,1]) == [4, 3, 2])
+        XCTAssertTrue(제일작은수제거하기.solution([10]) == [-1])
+        XCTAssertTrue(제일작은수제거하기.solution([4,3,2,1,5,6,7]) == [4,3,2,5,6,7])
+    }
+    
     func test타겟넘버() {
         XCTAssertTrue(타겟넘버.solution([1, 1, 1, 1, 1], 3) == 5)
         XCTAssertTrue(타겟넘버.solution([4, 1, 2, 1], 4) == 2)
