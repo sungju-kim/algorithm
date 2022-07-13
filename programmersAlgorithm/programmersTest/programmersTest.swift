@@ -1,6 +1,12 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test베스트앨범() {
+        let value = 베스트앨범.solution(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500])
+        let result = [4, 1, 3, 0]
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+    }
+
     func test짝지어제거하기() {
         let value = 짝지어제거하기.solution("baabaa")
         let value2 = 짝지어제거하기.solution("cdcd")
