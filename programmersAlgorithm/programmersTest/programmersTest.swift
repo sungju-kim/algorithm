@@ -1,6 +1,18 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test영어끝말잇기() {
+        let value = 영어끝말잇기.solution(3, ["tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"])
+        let value2 = 영어끝말잇기.solution(5, ["hello", "observe", "effect", "take", "either", "recognize", "encourage", "ensure", "establish", "hang", "gather", "refer", "reference", "estimate", "executive"] )
+        let value3 = 영어끝말잇기.solution(2, ["hello", "one", "even", "never", "now", "world", "draw"])
+        let result = [3,3]
+        let result2 = [0,0]
+        let result3 = [1,3]
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+    }
+
     func test올바른괄호() {
         let value = 올바른괄호.solution("()()")
         let value2 = 올바른괄호.solution("(())()")
