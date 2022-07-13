@@ -1,6 +1,24 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test방문길이() {
+        let value = 방문길이.solution("ULURRDLLU")
+        let value2 = 방문길이.solution("LULLLLLLU")
+        let value3 = 방문길이.solution("RUDUDUDUDU")
+        let result = 7
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result, "\(value2) != \(result)")
+        XCTAssertTrue(value3 == 2, "\(value3) != \(2)")
+    }
+    func test프린터() {
+        let conditions = [프린터.solution([2, 1, 3, 2], 2), 프린터.solution([1, 1, 9, 1, 1, 1], 0)]
+        let results = [1, 5]
+        conditions.enumerated().forEach { index, value in
+            let result = results[index]
+            XCTAssertTrue(value == result, "\(value) != \(result)")
+        }
+    }
+
     func test모음사전() {
         XCTAssertTrue(모음사전.solution("AAAAE") == 6)
         XCTAssertTrue(모음사전.solution("AAAE") == 10)
