@@ -1,6 +1,17 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test올바른괄호() {
+        let value = 올바른괄호.solution("()()")
+        let value2 = 올바른괄호.solution("(())()")
+        let value3 = 올바른괄호.solution(")()(")
+        let value4 = 올바른괄호.solution("(()(")
+        XCTAssertTrue(value == true, "\(value) != \(true)")
+        XCTAssertTrue(value2 == true, "\(value2) != \(true)")
+        XCTAssertTrue(value3 == false, "\(value3) != \(false)")
+        XCTAssertTrue(value4 == false, "\(value4) != \(false)")
+    }
+
     func test방문길이() {
         let value = 방문길이.solution("ULURRDLLU")
         let value2 = 방문길이.solution("LULLLLLLU")
