@@ -1,6 +1,24 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test배달() {
+        let value = 배달.solution(5, [[1,2,1],[2,3,3],[5,2,2],[1,4,2],[5,3,1],[5,4,2]], 3)
+        let value2 = 배달.solution(6, [[1,2,1],[1,3,2],[2,3,2],[3,4,3],[3,5,2],[3,5,3],[5,6,1]], 4)
+        let result = 4
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result, "\(value2) != \(result)")
+    }
+
+    func test기능개발() {
+        let value = 기능개발.solution([93, 30, 55], [1, 30, 5])
+        let value2 = 기능개발.solution([95, 90, 99, 99, 80, 99], [1, 1, 1, 1, 1, 1])
+        let result = [2, 1]
+        let result2 = [1, 3, 2]
+
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+    }
+
     func test베스트앨범() {
         let value = 베스트앨범.solution(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500])
         let result = [4, 1, 3, 0]
