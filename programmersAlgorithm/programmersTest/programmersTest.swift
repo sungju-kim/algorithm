@@ -1,6 +1,20 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test이중우선순위큐() {
+        let value = 이중우선순위큐.solution(["I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"])
+        let value2 = 이중우선순위큐.solution(["I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"])
+        let value3 = 이중우선순위큐.solution(["I 4", "I -1", "I 6", "I 3"])
+        let value4 = 이중우선순위큐.solution(["I 1", "I 2", "I 3", "I 4", "I 5", "D 1", "D -1", "D 1", "D -1","I 9", "I 1", "I 2", "I 3", "I 4", "I 5", "I 6"])
+        let result = [0,0]
+        let result2 = [333, -45]
+        let result3 = [6, -1]
+        let result4 = [9, 1]
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+    }
+
     func test배달() {
         let value = 배달.solution(5, [[1,2,1],[2,3,3],[5,2,2],[1,4,2],[5,3,1],[5,4,2]], 3)
         let value2 = 배달.solution(6, [[1,2,1],[1,3,2],[2,3,2],[3,4,3],[3,5,2],[3,5,3],[5,6,1]], 4)
