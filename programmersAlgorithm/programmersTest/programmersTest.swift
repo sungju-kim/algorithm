@@ -1,6 +1,14 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test가장먼노드() {
+        let value = 가장먼노드.solution(6, [[3, 6], [4, 3], [3, 2], [1, 3], [1, 2], [2, 4], [5, 2]])
+        let result = 3
+        let value2 = 가장먼노드.solution(14, [[3, 6], [4, 3], [3, 2], [1, 3], [1, 2], [2, 4], [5, 2], [4, 9], [5, 9], [7, 6], [10, 6], [10, 4], [11, 10], [9, 11], [11, 12], [9, 13], [5, 14], [5, 8]])
+        let result2 = 1
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+    }
     func test이중우선순위큐() {
         let value = 이중우선순위큐.solution(["I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"])
         let value2 = 이중우선순위큐.solution(["I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"])
@@ -13,6 +21,7 @@ class programmersTest: XCTestCase {
         XCTAssertTrue(value == result, "\(value) != \(result)")
         XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
         XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+        XCTAssertTrue(value4 == result4, "\(value4) != \(result4)")
     }
 
     func test배달() {
