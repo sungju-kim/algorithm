@@ -1,6 +1,26 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test문자열압축() {
+        let value = 문자열압축.solution("aabbaccc"), result = 7
+        let value2 = 문자열압축.solution("ababcdcdababcdcd"), result2 = 9
+        let value3 = 문자열압축.solution("abcabcdede"), result3 = 8
+        let value4 = 문자열압축.solution("abcabcabcabcdededededede"), result4 = 14
+        let value5 = 문자열압축.solution("xababcdcdababcdcd"), result5 = 17
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+        XCTAssertTrue(value4 == result4, "\(value4) != \(result4)")
+        XCTAssertTrue(value5 == result5, "\(value5) != \(result5)")
+    }
+    func test자동완성() {
+        let value = 자동완성.solution(["go","gone","guild"]), result = 7
+        let value2 = 자동완성.solution(["abc","def","ghi","jklm"]), result2 = 4
+        let value3 = 자동완성.solution(["word","war","warrior","world"]), result3 = 15
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+    }
     func test가장먼노드() {
         let value = 가장먼노드.solution(6, [[3, 6], [4, 3], [3, 2], [1, 3], [1, 2], [2, 4], [5, 2]])
         let result = 3
@@ -353,14 +373,6 @@ class programmersTest: XCTestCase {
         XCTAssertTrue(Lottos.solution([0, 0, 0, 0, 0, 0], [38, 19, 20, 40, 15, 25]) == [1, 6])
         XCTAssertTrue(Lottos.solution([45, 4, 35, 20, 3, 9], [20, 9, 3, 45, 4, 35]) == [1, 1])
         
-    }
-    
-    func testStringCompress() {
-        XCTAssertTrue(StringCompress.solution("aabbaccc") == 7)
-        XCTAssertTrue(StringCompress.solution("ababcdcdababcdcd") == 9)
-        XCTAssertTrue(StringCompress.solution("abcabcdede") == 8)
-        XCTAssertTrue(StringCompress.solution("abcabcabcabcdededededede") == 14)
-        XCTAssertTrue(StringCompress.solution("xababcdcdababcdcd") == 17)
     }
     
     func testOddString() {
