@@ -1,6 +1,14 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test하노이탑() {
+        let value = 하노이탑.solution(2), result = [[1,2], [1,3], [2,3]]
+        let value2 = 하노이탑.solution(3), result2 = [[1,3], [1,2], [3,2], [1,3], [2,1], [2,3], [1,3]]
+        let value3 = 하노이탑.solution(4), result3 = [[1,2], [1,3], [2,3], [1,2], [3,1], [3,2], [1,2], [1,3], [2,3], [2,1], [3,1], [2,3], [1,2], [1,3], [2,3]]
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+    }
     func test문자열압축() {
         let value = 문자열압축.solution("aabbaccc"), result = 7
         let value2 = 문자열압축.solution("ababcdcdababcdcd"), result2 = 9
