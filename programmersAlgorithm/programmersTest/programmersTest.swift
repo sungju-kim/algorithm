@@ -1,6 +1,16 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test입국심사() {
+        let value = 입국심사.solution(6, [7, 10]), result = 28
+        let value2 = 입국심사.solution(6, [6, 7, 22, 41, 10, 5]), result2 = 12
+        let value3 = 입국심사.solution(10, [6, 8, 10]), result3 = 30
+        let value4 = 입국심사.solution(8, [1, 9]), result4 = 8
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+        XCTAssertTrue(value4 == result4, "\(value4) != \(result4)")
+    }
     func test하노이탑() {
         let value = 하노이탑.solution(2), result = [[1,2], [1,3], [2,3]]
         let value2 = 하노이탑.solution(3), result2 = [[1,3], [1,2], [3,2], [1,3], [2,1], [2,3], [1,3]]
