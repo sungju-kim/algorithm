@@ -1,29 +1,39 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test큰수만들기() {
+        let value = 큰수만들기.solution("1924", 2), result = "94"
+        let value2 = 큰수만들기.solution("1231234", 3), result2 = "3234"
+        let value3 = 큰수만들기.solution("4177252841", 4), result3 = "775841"
+        let value4 = 큰수만들기.solution("4321", 1), result4 = "432"
+
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+        XCTAssertTrue(value4 == result4, "\(value4) != \(result4)")
+    }
+
     func test보석쇼핑() {
-//        let value = 보석쇼핑.solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"]), result = [3, 7]
-//        let value2 = 보석쇼핑.solution(["AA", "AB", "AC", "AA", "AC"]), result2 = [1, 3]
-//        let value3 = 보석쇼핑.solution(["XYZ", "XYZ", "XYZ"]), result3 = [1, 1]
-//        let value4 = 보석쇼핑.solution(["ZZZ", "YYY", "NNNN", "YYY", "BBB"]), result4 = [1, 5]
-//        let value5 = 보석쇼핑.solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "christal", "EMERALD", "SAPPHIRE", "DIA"]), result5 = [3, 8]
-//        let value6 = 보석쇼핑.solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "christal", "RUBY", "EMERALD", "SAPPHIRE", "DIA"]), result6 = [5, 9]
-//        let value7 = 보석쇼핑.solution(["DIA", "RUBY", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA"]), result7 = [1, 2]
-//        let value8 = 보석쇼핑.solution(["DIA", "RUBY", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "RUBY"]), result8 = [1, 2]
-//        let value9 = 보석쇼핑.solution(["A","A","A","B","B"]), result9 = [3, 4]
-//        let value10 = 보석쇼핑.solution(["A"] ), result10 = [1, 1]
-        let value11 = 보석쇼핑.foo(["A","B","B","B","B","B","B","C","B","A"]), result11 = [8,10]
-//        XCTAssertTrue(value == result, "\(value) != \(result)")
-//        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
-//        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
-//        XCTAssertTrue(value4 == result4, "\(value4) != \(result4)")
-//        XCTAssertTrue(value5 == result5, "\(value5) != \(result5)")
-//        XCTAssertTrue(value6 == result6, "\(value6) != \(result6)")
-//        XCTAssertTrue(value7 == result7, "\(value7) != \(result7)")
-//        XCTAssertTrue(value8 == result8, "\(value8) != \(result8)")
-//        XCTAssertTrue(value9 == result9, "\(value9) != \(result9)")
-//        XCTAssertTrue(value10 == result10, "\(value10) != \(result10)")
-        XCTAssertTrue(value11 == result11, "\(value11) != \(result11)")
+        let value = 보석쇼핑.solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"]), result = [3, 7]
+        let value2 = 보석쇼핑.solution(["AA", "AB", "AC", "AA", "AC"]), result2 = [1, 3]
+        let value3 = 보석쇼핑.solution(["XYZ", "XYZ", "XYZ"]), result3 = [1, 1]
+        let value4 = 보석쇼핑.solution(["ZZZ", "YYY", "NNNN", "YYY", "BBB"]), result4 = [1, 5]
+        let value5 = 보석쇼핑.solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "christal", "EMERALD", "SAPPHIRE", "DIA"]), result5 = [3, 8]
+        let value6 = 보석쇼핑.solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "christal", "RUBY", "EMERALD", "SAPPHIRE", "DIA"]), result6 = [5, 9]
+        let value7 = 보석쇼핑.solution(["DIA", "RUBY", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA"]), result7 = [1, 2]
+        let value8 = 보석쇼핑.solution(["DIA", "RUBY", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "DIA", "RUBY"]), result8 = [1, 2]
+        let value9 = 보석쇼핑.solution(["A","A","A","B","B"]), result9 = [3, 4]
+        let value10 = 보석쇼핑.solution(["A"] ), result10 = [1, 1]
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+        XCTAssertTrue(value4 == result4, "\(value4) != \(result4)")
+        XCTAssertTrue(value5 == result5, "\(value5) != \(result5)")
+        XCTAssertTrue(value6 == result6, "\(value6) != \(result6)")
+        XCTAssertTrue(value7 == result7, "\(value7) != \(result7)")
+        XCTAssertTrue(value8 == result8, "\(value8) != \(result8)")
+        XCTAssertTrue(value9 == result9, "\(value9) != \(result9)")
+        XCTAssertTrue(value10 == result10, "\(value10) != \(result10)")
     }
     func test입국심사() {
         let value = 입국심사.solution(6, [7, 10]), result = 28
