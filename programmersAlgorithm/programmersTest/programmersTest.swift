@@ -1,11 +1,19 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func test단어퍼즐() {
+        let value = 단어퍼즐.solution(["ba","na","n","a"], "banana"), result = 3
+        let value2 = 단어퍼즐.solution(["app","ap","p","l","e","ple", "pp"],"apple"), result2 = 2
+        let value3 = 단어퍼즐.solution(["ba","an","nan","ban","n"], "banana"), result3 = -1
+
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+        XCTAssertTrue(value3 == result3, "\(value3) != \(result3)")
+    }
+
     func testNQueen() {
         let value = NQueen.solution(4), result = 2
-//        let value2 = NQueen.solution(12), result2 = 14200
         XCTAssertTrue(value == result, "\(value) != \(result)")
-//        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
     }
     func test큰수만들기() {
         let value = 큰수만들기.solution("1924", 2), result = "94"
