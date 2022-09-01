@@ -1,6 +1,13 @@
 import XCTest
 
 class programmersTest: XCTestCase {
+    func testk진수에서소수개수수하기() {
+        let value = k진수에서소수개수구하기.solution(437674, 3), result = 3
+        let value2 = k진수에서소수개수구하기.solution(110011, 10), result2 = 2
+
+        XCTAssertTrue(value == result, "\(value) != \(result)")
+        XCTAssertTrue(value2 == result2, "\(value2) != \(result2)")
+    }
     func test단어퍼즐() {
         let value = 단어퍼즐.solution(["ba","na","n","a"], "banana"), result = 3
         let value2 = 단어퍼즐.solution(["app","ap","p","l","e","ple", "pp"],"apple"), result2 = 2
