@@ -54,6 +54,9 @@
 		6C5814B3274FE4650076488C /* 11022_A+B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5814B2274FE4650076488C /* 11022_A+B.swift */; };
 		6C5814B5274FE4830076488C /* 1065_한수.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5814B4274FE4830076488C /* 1065_한수.swift */; };
 		6C806BD2282BBF0300F7C9E0 /* 1920_수 찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C806BD1282BBF0300F7C9E0 /* 1920_수 찾기.swift */; };
+		6C9BC5F928DAC0A8003029CB /* BaekJoonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BC5F828DAC0A8003029CB /* BaekJoonTest.swift */; };
+		6C9BC5FE28DAC0C6003029CB /* 11659_구간 합 구하기4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BC5FD28DAC0C6003029CB /* 11659_구간 합 구하기4.swift */; };
+		6C9BC5FF28DAC0E6003029CB /* 11659_구간 합 구하기4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BC5FD28DAC0C6003029CB /* 11659_구간 합 구하기4.swift */; };
 		6CA8E19A28A64B06009CD64D /* 10926_??!.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8E19928A64B06009CD64D /* 10926_??!.swift */; };
 		6CA8E19C28A64BD8009CD64D /* 18108_서기연도.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8E19B28A64BD8009CD64D /* 18108_서기연도.swift */; };
 		6CA8E19E28A64C6B009CD64D /* 3003_체스.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8E19D28A64C6B009CD64D /* 3003_체스.swift */; };
@@ -137,6 +140,9 @@
 		6C5814B2274FE4650076488C /* 11022_A+B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11022_A+B.swift"; sourceTree = "<group>"; };
 		6C5814B4274FE4830076488C /* 1065_한수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1065_한수.swift"; sourceTree = "<group>"; };
 		6C806BD1282BBF0300F7C9E0 /* 1920_수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1920_수 찾기.swift"; sourceTree = "<group>"; };
+		6C9BC5F628DAC0A8003029CB /* BaekJoonTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaekJoonTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9BC5F828DAC0A8003029CB /* BaekJoonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaekJoonTest.swift; sourceTree = "<group>"; };
+		6C9BC5FD28DAC0C6003029CB /* 11659_구간 합 구하기4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11659_구간 합 구하기4.swift"; sourceTree = "<group>"; };
 		6CA8E19928A64B06009CD64D /* 10926_??!.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10926_??!.swift"; sourceTree = "<group>"; };
 		6CA8E19B28A64BD8009CD64D /* 18108_서기연도.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18108_서기연도.swift"; sourceTree = "<group>"; };
 		6CA8E19D28A64C6B009CD64D /* 3003_체스.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3003_체스.swift"; sourceTree = "<group>"; };
@@ -162,6 +168,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6C9BC5F328DAC0A8003029CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6CFD9CEA273508F9001E788B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,10 +185,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C9BC5F728DAC0A8003029CB /* BaekJoonTest */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BC5F828DAC0A8003029CB /* BaekJoonTest.swift */,
+			);
+			path = BaekJoonTest;
+			sourceTree = "<group>";
+		};
 		6CFD9CE4273508F9001E788B = {
 			isa = PBXGroup;
 			children = (
 				6CFD9CEF273508F9001E788B /* baekjoonAlgorithm */,
+				6C9BC5F728DAC0A8003029CB /* BaekJoonTest */,
 				6CFD9CEE273508F9001E788B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -184,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				6CFD9CED273508F9001E788B /* baekjoonAlgorithm */,
+				6C9BC5F628DAC0A8003029CB /* BaekJoonTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				6CFD9CF0273508F9001E788B /* main.swift */,
+				6C9BC5FD28DAC0C6003029CB /* 11659_구간 합 구하기4.swift */,
 				6CA8E1A528A6572E009CD64D /* 25304_영수증.swift */,
 				6CA8E1A728A65931009CD64D /* 1712_손익분기점.swift */,
 				6CA8E1A928A661E7009CD64D /* 2292_벌집.swift */,
@@ -266,6 +290,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6C9BC5F528DAC0A8003029CB /* BaekJoonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9BC5FC28DAC0A8003029CB /* Build configuration list for PBXNativeTarget "BaekJoonTest" */;
+			buildPhases = (
+				6C9BC5F228DAC0A8003029CB /* Sources */,
+				6C9BC5F328DAC0A8003029CB /* Frameworks */,
+				6C9BC5F428DAC0A8003029CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaekJoonTest;
+			productName = BaekJoonTest;
+			productReference = 6C9BC5F628DAC0A8003029CB /* BaekJoonTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6CFD9CEC273508F9001E788B /* baekjoonAlgorithm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CFD9CF4273508F9001E788B /* Build configuration list for PBXNativeTarget "baekjoonAlgorithm" */;
@@ -290,9 +331,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					6C9BC5F528DAC0A8003029CB = {
+						CreatedOnToolsVersion = 14.0;
+					};
 					6CFD9CEC273508F9001E788B = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -312,11 +356,31 @@
 			projectRoot = "";
 			targets = (
 				6CFD9CEC273508F9001E788B /* baekjoonAlgorithm */,
+				6C9BC5F528DAC0A8003029CB /* BaekJoonTest */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		6C9BC5F428DAC0A8003029CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		6C9BC5F228DAC0A8003029CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9BC5FF28DAC0E6003029CB /* 11659_구간 합 구하기4.swift in Sources */,
+				6C9BC5F928DAC0A8003029CB /* BaekJoonTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6CFD9CE9273508F9001E788B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +445,7 @@
 				6C581469274FE1730076488C /* 14681_사분면 고르기.swift in Sources */,
 				6CA8E1A028A64EF0009CD64D /* 25083_새싹.swift in Sources */,
 				6C58148D274FE32C0076488C /* 11720_숫자의 합.swift in Sources */,
+				6C9BC5FE28DAC0C6003029CB /* 11659_구간 합 구하기4.swift in Sources */,
 				6CBE31C42876E7EA0040539D /* 2579_계단 오르기.swift in Sources */,
 				6C581471274FE1D50076488C /* 11021_A+B.swift in Sources */,
 				6C581467274FE1480076488C /* 2577_숫자의 개수.swift in Sources */,
@@ -395,6 +460,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6C9BC5FA28DAC0A8003029CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3CMN6PKN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaekJoonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C9BC5FB28DAC0A8003029CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3CMN6PKN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaekJoonTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6CFD9CF2273508F9001E788B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -531,6 +638,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6C9BC5FC28DAC0A8003029CB /* Build configuration list for PBXNativeTarget "BaekJoonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9BC5FA28DAC0A8003029CB /* Debug */,
+				6C9BC5FB28DAC0A8003029CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6CFD9CE8273508F9001E788B /* Build configuration list for PBXProject "baekjoonAlgorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
