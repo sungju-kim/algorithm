@@ -18,7 +18,7 @@ import Foundation
 
 class SolutionRomanToInt {
     func romanToInt(_ s: String) -> Int {
-        var romanArr = Array(s)
+        let romanArr = Array(s)
         var numArr : [Int] = []
         var result : Int = 0
         for i in romanArr {

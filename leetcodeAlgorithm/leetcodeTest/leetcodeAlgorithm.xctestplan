@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "0E9C3985-7208-4EA5-8F6B-3E5127CAC4A0",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:leetcodeAlgorithm.xcodeproj",
+      "identifier" : "6C5B4ADD27507B1600C17A16",
+      "name" : "leetcodeAlgorithm"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:leetcodeAlgorithm.xcodeproj",
+        "identifier" : "6C1AC7F129FF9D7F003E69F0",
+        "name" : "leetcodeTest"
+      }
+    }
+  ],
+  "version" : 1
+}
