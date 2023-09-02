@@ -9,13 +9,50 @@ import Foundation
 
 
 
-public class ListNode { 
-public var val: Int
-public var next: ListNode?
-public init() { self.val = 0; self.next = nil; }
-public init(_ val: Int) { self.val = val; self.next = nil; }
-public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
-  }
+class ListNode: Equatable, CustomStringConvertible {
+    static func == (lhs: ListNode, rhs: ListNode) -> Bool {
+        lhs.val == rhs.val && lhs.next == rhs.next
+    }
+
+    var val: Int
+    var next: ListNode?
+
+    var description: String {
+        var values = [Int]()
+        var currentNode: ListNode? = self
+        
+        while let node = currentNode {
+            values.append(node.val)
+            currentNode = node.next
+        }
+        
+        let description = values.map { String($0) }.joined(separator: ", ")
+        return "[\(description)]"
+    }
+
+    init() { self.val = 0; self.next = nil; }
+    init(_ val: Int) { self.val = val; self.next = nil; }
+    init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
+
+    static func generate(arr: [Int]) -> ListNode? {
+        var node: ListNode?
+
+        var last: ListNode?
+        for num in arr {
+            guard let _ = node else {
+                node = ListNode(num)
+                last = node
+                continue
+            }
+
+            let newNode = ListNode(num)
+            last?.next = newNode
+            last = newNode
+        }
+        return node
+    }
+    
+}
  
 class SolutionMergeTwoLists {
     func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {

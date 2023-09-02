@@ -29,7 +29,10 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:leetcodeAlgorithm.xctestplan"
+            reference = "container:leetcodeAlgorithm.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:leetcodeTest/leetcodeAlgorithm.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
